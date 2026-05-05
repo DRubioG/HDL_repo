@@ -29,3 +29,71 @@
 ## [FPGA_BASED_RADAR_ACQUISITION_AND_PREPROCESSING_UNIT](https://github.com/ramonblancocaamano/FPGA_BASED_RADAR_ACQUISITION_AND_PREPROCESSING_UNIT)
 
 ## [DRFM](https://github.com/allincomm/DRFM)
+
+## [usb-sniffer](https://github.com/ataradov/usb-sniffer)
+
+## [Core_JPEG](https://github.com/ultraembedded/core_jpeg)
+
+## [DDR3 controller](https://github.com/ultraembedded/core_ddr3_controller)
+
+## [Core FTDI Bridge](https://github.com/ultraembedded/core_ftdi_bridge)
+
+## [Core JPEG decoder](https://github.com/ultraembedded/core_jpeg_decoder)
+
+## [AQ_AXIS_DJPEG](https://github.com/aquaxis/aq_axis_djpeg)
+
+## [GEMAC](https://github.com/aquaxis/gemac)
+
+## [100 Gbps TCP/IP stack for Vitis shells](https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP)
+
+## [FPGA Network stack](https://github.com/fpgasystems/fpga-network-stack)
+
+## [Caribou](https://github.com/fpgasystems/caribou)
+
+## [Coyote](https://github.com/fpgasystems/Coyote)
+
+## [ZipML](https://github.com/fpgasystems/ZipML-PYNQ)
+
+## [ZipML Xeon](https://github.com/fpgasystems/ZipML-XeonFPGA)
+
+## [Hashing Xeon](https://github.com/fpgasystems/hashing-XeonFPGA)
+
+## [TinyGPU](https://github.com/adam-maj/tiny-gpu)
+
+## [VeriGPU](https://github.com/hughperkins/verigpu)
+
+## [GPU](https://github.com/wojtek1227/GPU)
+
+## [OpenGlory](https://github.com/egorxe/openglory)
+
+## [TPU](https://github.com/Domipheus/TPU)
+
+## [TPU](https://github.com/cameronshinn/tiny-tpu)
+
+## [Tensor TPU](https://github.com/leo47007/TPU-Tensor-Processing-Unit)
+
+## [CNN](https://github.com/AniketBadhan/Convolutional-Neural-Network)
+
+## [CNN open](https://github.com/lulinchen/cnn_open)
+
+## [CNN Verilog](https://github.com/kaggar11/cnn_verilog)
+
+## [CNN Verilog](https://github.com/boaaaang/CNN-Implementation-in-Verilog)
+
+## [LeNet](https://github.com/itsMorteza/LeNet-Verilog)
+
+## [Verilog Neural network](https://github.com/visnjicm/verilog-neural-network)
+
+## [Verilog-CNN](https://github.com/OmarFaseeh/Verilog-CNN)
+
+## [VHDL-CNN](https://github.com/SalvatoreBarone/CNN-VHDL)
+
+## [CNN VHDL Generator](https://github.com/mhamdanx/cnn-vhdl-generator)
+
+## [FPGA CNN](https://github.com/Amro-source/FPGA-CNN)
+
+## [Pocket CNN](https://github.com/marph91/pocket-cnn)
+
+## [VHDL CNN](https://github.com/Wangkkklll/VHDL_CNN)
+
+## [pyALS RF](https://github.com/SalvatoreBarone/pyALS-RF)

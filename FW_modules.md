@@ -30,6 +30,8 @@
 
 ### [RISCY](https://github.com/mongrelgem/RISCY)
 
+### [Altor32](https://github.com/ultraembedded/altor32)
+
 ## Ethernet
 
 ### [XGbE_lib](https://github.com/staerz/XGbE_lib)
@@ -39,6 +41,11 @@
 ### [verilog-ethernet](https://github.com/alexforencich/verilog-ethernet)
 
 - Language: Verilog
+
+
+## RoCEv2
+
+### [100G RoCE2](https://github.com/Gabriele-bot/100G-verilog-RoCEv2-lite)
 
 ## Jesd204
 
