@@ -55,6 +55,9 @@
 
 - Language: Verilog
 
+### [ListenToJESD204B](https://github.com/pulp-bio/ListenToJESD)
+
+
 ## Aurora
 
 ### [AuroraFlow](https://github.com/pc2/AuroraFlow)
@@ -62,6 +65,8 @@
 ### [aurora_64b66b-vhdl-sim](https://github.com/mnemocron/aurora_64b66b-vhdl-sim)
 
 ### [Aurora RAW](https://github.com/MEEPproject/aurora-raw)
+
+### [Aurora](https://github.com/wolve265/aurora)
 
 
 ## PCIe
