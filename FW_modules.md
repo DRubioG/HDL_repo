@@ -6,6 +6,10 @@
 
 ### [PoC](https://github.com/VHDL/PoC)
 
+### [Open-logic](https://github.com/open-logic/open-logic)
+
+### [PSI Common](https://github.com/paulscherrerinstitute/psi_common)
+
 ## FFTs
 
 ## Cyphers

@@ -97,3 +97,5 @@
 ## [VHDL CNN](https://github.com/Wangkkklll/VHDL_CNN)
 
 ## [pyALS RF](https://github.com/SalvatoreBarone/pyALS-RF)
+
+## [en_cl_fix](https://github.com/enclustra/en_cl_fix)

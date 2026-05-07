@@ -5,4 +5,12 @@
 
 ## [openFPGALoader](https://github.com/ultraembedded/openFPGALoader)
 
-## [PyVeriltor](https://github.com/maltanar/pyverilator)
+## [PyVerilator](https://github.com/maltanar/pyverilator)
+
+## [ChipScoPy](https://github.com/Xilinx/chipscopy)
+
+## [AXI Stream to JTAG Core](https://github.com/paulscherrerinstitute/xvcSupport)
+
+## [Pyftdi](https://github.com/eblot/pyftdi)
+
+## [OpenTimer](https://github.com/matthuszagh/OpenTimer)
