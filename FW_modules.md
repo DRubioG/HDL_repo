@@ -2,6 +2,25 @@
 
 These are the FW modules repository.
 
+## Index
+
+- [Generic](#Generic)
+- [SD](#SD)
+- [FFT/IFFT](#FFT/IFFT)
+- [RNG](#RNG)
+- [MAC](#MAC)
+- [Comms](#Comms)
+- [Cores](#Cores)
+- [Ethernet](#Ethernet)
+- [GMII](#GMII)
+- [RoCEv2](#RoCEv2)
+- [Jesd204](#Jesd204)
+- [PCIe](#PCIe)
+- [NIC](#NIC)
+- [Other pieces](#Other pieces)
+
+
+
 ## Generic
 
 ### [Open-logic](https://github.com/open-logic/open-logic)
@@ -69,7 +88,7 @@ SD-Card controller, using either SPI, SDIO, or eMMC interfaces
 
 - Language: Verilog
 
-## FFTs
+## FFT/IFFT
 
 ### [Radix-2 FFT - VHDL Implementation](https://github.com/bugratufan/radix2-fft-vhdl)
 VHDL implementation of radix2 fft pipeline algorithm for IEEE-754 single precision floating point data format
@@ -169,6 +188,49 @@ VHDL modular Fast Fourier Transform based on Cooley-Tukey algorithm
 - Language: VHDL
 
 
+## [SpaceFFT](https://github.com/milovanovic/SpaceFFT)
+Signal Processing ACcElerator For Fast Target detection
+
+- Language: Scala
+
+## [Verilog-Implementation-of-a-32-point-IFFT-Circuit](https://github.com/alice820621/Verilog-Implementation-of-a-32-point-IFFT-Circuit/tree/master)
+A FIFO structure is implemented to hold input and output data. There are 32 pairs of real and imaginary inputs, consisting of 4-bit integer and 24-bit decimal values each. The 32-point IFFT has 5 layers with 32 butterflies each. The device operates with a speed of 200MHz.
+
+- Language: Verilog
+
+
+## [Design and Implementation of 64-point Fast Fourier Transform (FFT/IFFT) Chip for OFDM-based 802.11a WLAN](https://github.com/hibagus/64pointFFTProcessor)
+Synthesizeable VHDL and Verilog implementation of 64-point FFT/IFFT Processor with Q4.12 Fixed Point Data Format.
+
+- Language: Verilog
+
+## [pipelined_fft_256](https://github.com/freecores/pipelined_fft_256)
+Pipelined FFT/IFFT 256 points processor
+
+- Language: Verilog
+
+## [Fast-Fourier-Transform](https://github.com/ameyk1/Fast-Fourier-Transform)
+16-Point FFT is developed in order to accurately model that of the MATLAB function. . The module successfully tested using verilog testbenches in the simulation and compared with Matlab generated output.
+
+- Language: Verilog
+
+## [Butterfly-DFT](https://github.com/janbbeck/Butterfly-DFT)
+This is a butterfly discrete Fourier transform in Verilog
+
+- Language: Verilog
+
+
+## [Integer SPDF-FFT/IFFT Radix-2](https://github.com/hukenovs/intfft_spdf)
+Integer (Scaled / Unscaled) Radix-2 Single Path Delay Feedback (SPDF) FFT / IFFT cores
+
+- Language: VHDL
+
+
+
+
+
+
+
 ## Cyphers
 
 ### [FPGA implementation of Chinese SM4 encryption algorithm](https://github.com/gongxunwu/sm4-verilog)
@@ -186,6 +248,30 @@ This is an implementation of Chinese SM3 hash algorithm.
 Ascon AEAD with Basic Iterative Architecture in LWC API
 
 - Language: VHDL
+
+### [blake2](https://github.com/secworks/blake2)
+Hardware implementation of the blake2 hash function
+
+- Language: Verilog
+
+### [blake3](https://github.com/secworks/blake3)
+Hardware implementation of the Blake3 hash function
+
+- Language: Verilog
+
+### [xchacha](https://github.com/secworks/xchacha)
+Hardware implementation of the extended-nonce ChaCha stream cipher
+
+- Language: Verilog
+
+
+### [vndecorrelator](https://github.com/secworks/vndecorrelator)
+A Verilog implementation of a von Neumann decorrelator
+
+- Language: Verilog
+
+
+
 
 ## Filters
 
@@ -320,6 +406,104 @@ Xilinx Vivado IIR Filter Compiler IP
 
 ## RNG
 
+### [The neoTRNG True Random Number Generator](https://github.com/stnolting/neoTRNG)
+A Tiny and Platform-Independent True Random Number Generator for any FPGA (and ASIC).
+
+- Language: VHDL
+
+### [chaotic-rngs](https://github.com/bluemurder/chaotic-rngs)
+Random number generators based on chaotic functions
+
+- Language: VHDL
+
+### [Whirlyfly](https://github.com/zdavkeos/whirlyfly)
+Hardware RNG for Papilio One based on the original Whirlygig
+
+- Language: VHDL
+
+### [Burning Down the House: HDL Implementation of a TRNG Ring Oscillator](https://github.com/maxwell-bland/ring-oscillator)
+Implementation of a ring oscillator in VHDL.
+
+- Language: VHDL
+
+### [Modelsim-Mersenne-Twister](https://github.com/htminuslab/Modelsim-Mersenne-Twister)
+Adding strong RNG to Modelsim via the FLI
+
+- Language: VHDL
+
+### [OpenTRNG](https://github.com/opentrng/ptrng)
+This project provides the community with reference implementations of Physical TRNGs (PTRNGs) based on ring oscillators, designed to be transparent, reproducible, and easy to experiment with.
+
+- Language: VHDL
+
+### [trng](https://github.com/secworks/trng)
+This repo contains the design of a True Random Number Generator (TRNG) for the Cryptech OpenHSM project.
+
+- Language: Verilog
+
+
+### [Random-Number-Generator](https://github.com/aniket0511/Random-Number-Generator)
+Hardware implementation of Random Number Generator using Verilog HDL
+
+- Language: Verilog
+
+
+
+### [TRNG-with-Ring-Oscillators-in-Verilog](https://github.com/adnanbaysal/TRNG-with-Ring-Oscillators-in-Verilog)
+A true random number generator with ring oscillators structure written in VHDL targeting FPGA's.
+
+- Language: Verilog
+
+
+### [[128-bit] FPGA Implementation of an Asynchronous Quasi-Random Number Generator Using Linear-feedback Shift Registers and Mousetrap Logic](https://github.com/rodrigowue/128bit-async-qrng)
+LFSRs are well-known circuits for generating pseudo-random sequences. At every cycle of the clock, you have a different value. However, the circuit presented in this work uses an asynchronous implementation (clockless) to mask the cycle and decrease the predictability after a certain amount of time. The PVT variations in this circuit will cause a displacement in time of each code for the pseudo-sequence, so the worst is the ring (in terms of variability), the better it is in terms of it is randomness.
+
+- Language: VHDL
+
+### [[128-bit] Pseudo Random Number Generator Using Linear-feedback Shift Registers](https://github.com/rodrigowue/128bit-prng)
+[128bit] PRNG Using LFSRs (Linear-feedback Shift Register)
+
+- Language: VHDL
+
+
+### [COSO-TRNG](https://github.com/KULeuven-COSIC/COSO-TRNG)
+Reference implementation for the COherent Sampling ring Oscillator based True Random Number Generator.
+
+- Language: Verilog
+
+### [FPGA true random number generator](https://github.com/esynr3z/strng)
+FPGA implementation of true random generator on Self-timed Rings
+
+- Language: Verilog
+
+### [True Random Number Generator (TRNG) for TinyTapeout ASIC Design](https://github.com/engrbilal992/tt10-TRNG)
+This project implements a True Random Number Generator (TRNG) for an ASIC design targeting TinyTapeout. The TRNG utilizes a noise source, a sampler, an 8-bit collector, and a SHA-256 conditioning module to produce high-quality random numbers suitable for cryptographic applications.
+
+- Language: Verilog
+
+### [verilog-trivium](https://github.com/ppashakhanloo/verilog-trivium)
+Implementation of Trivium - a random bit generator
+
+- Language: VHDL
+
+### [figaro](https://github.com/secworks/figaro)
+Implementation of the FiGaRO TRNG for FPGAs
+
+- Language: Verilog
+
+### [sha512](https://github.com/secworks/sha512)
+Verilog implementation of the SHA-512 hash function.
+
+- Language: Verilog
+
+
+### [sha1](https://github.com/secworks/sha1)
+Verilog implementation of the SHA-1 cryptgraphic hash function.
+
+- Language: Verilog
+
+
+
 ## Cordic
 
 ### [CORDIC VHDL](https://github.com/LucasJSch/cordic_vhdl)
@@ -444,6 +628,26 @@ Simple RISC-V RV32I CPU in VHDL for use in FPGA Designs
 AltOR32 is an OpenRISC 1000 architecture derived RISC CPU targeted at small FPGAs and contains only the most basic ISA features from the OpenRisc project. Instructions & registers relating to Vector, floating-point, 64-bit extensions, MMU & Cache have been omitted. The aim of AltOR32 is to provide a simple 32-bit soft CPU architecture aimed at control applications that can fit in low-end FPGA technology.
 
 - Language: Verilog
+
+### [The NEORV32 RISC-V Processor](https://github.com/stnolting/neorv32)
+A small, customizable and extensible MCU-class 32-bit RISC-V soft-core CPU and microcontroller-like SoC written in platform-independent VHDL.
+
+- Language: VHDL
+
+
+### [XCrypto: a cryptographic ISE for RISC-V](https://github.com/scarv/xcrypto)
+XCrypto: a cryptographic ISE for RISC-V
+
+- Language: Verilog
+
+
+### [Custom_MIPS_Processor_using_VHDL_with_RC5_Cipher](https://github.com/akhilwadhwa22/Custom_MIPS_based_Processor_using_VHDL_with_RC5_Cipher)
+Implemented a processor with RC5 Key-Expansion, Encryption and Decryption running on it using VHDL.
+
+- Language: VHDL
+
+
+
 
 
 ## Ethernet
@@ -604,3 +808,8 @@ The ADRV9009 is a highly integrated, radio frequency (RF) transceiver. This is m
 Verilog digital signal processing components
 
 - Language: Verilog
+
+## [sv_math](https://github.com/nelsoncsc/sv_math)
+Reusable math modules (multiplication, division, square root and logarithm) in SystemVerilog
+
+- Language: SystemVerilog

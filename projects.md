@@ -79,11 +79,6 @@ Radar course
 - Language: Verilog
 
 
-## [SpaceFFT](https://github.com/milovanovic/SpaceFFT)
-Signal Processing ACcElerator For Fast Target detection
-
-- Language: Scala
-
 
 ## [FPGA_BASED_RADAR_ACQUISITION_AND_PREPROCESSING_UNIT](https://github.com/ramonblancocaamano/FPGA_BASED_RADAR_ACQUISITION_AND_PREPROCESSING_UNIT)
 FPGA BASED RADAR ACQUISITION AND PREPROCESSING UNIT
@@ -785,3 +780,167 @@ This project demonstrates DSP capabilities of Terasic DE2-115
  high-res audio PWM modulator on a FPGA with I2S audio input and 384 kHz output PWM signal capable of driving a Mosfet power-stage to build up a Class-D amplifier or an audio-DAC (with RC filter behind the digital pins).
  
 - Language: VHDL
+
+
+## [FPGA Tetris](https://github.com/DavidSalsburg/FPGA-Tetris)
+A joystick-controlled Tetris game designed for a Zybo FPGA.
+
+- Language: VHDL
+
+
+## [ML-DSA-OSH](https://github.com/KULeuven-COSIC/ML-DSA-OSH)
+This repository contains the verilog/vhdl sources of an efficient HW implementation of ML-DSA (FIPS 204). The current design is largely based on the design by Beckwith et al., and their open-source implementation of CRYSTALS-Dilithium v3.1. The design supports all three NIST security levels (II, III and V) and operations (KeyGen, SigGen, SigVer), at runtime: one can perform operations of any configuration on the same hardware instantiation.
+
+- Language: Verilog
+
+## [JSON encoder and decoder in SystemVerilog](https://github.com/esynr3z/svjson)
+The project introduces JSON decoder and encoder implementation in pure SystemVerilog without any external dependencies. It provides SystemVerilog package json_pkg for convenient integration into any HDL project.
+
+- Language: SystemVerilog
+
+## [Vedic-Multiplier](https://github.com/aniket0511/Vedic-Multiplier)
+Hardware Implementation of Vedic Multiplier using Verilog
+
+- Language: Verilog
+
+## [Sigmoid-Function](https://github.com/aniket0511/Sigmoid-Function)
+Hardware Implementation of Sigmoid Function using verilog HDL
+
+- Language: Verilog
+
+## [wallace tree multiplier](https://github.com/secworks/WallTree)
+A VHDL code generator for wallace tree multiplier
+
+- Language: VHDL
+
+## [802.11a WLAN PHY Implementation](https://github.com/asadian98/802.11a-PHY)
+Hardware implementation (Verilog) and Software Implementation (MATLAB) of IEEE's 802.11a standard for transmitter and receiver sides of WLAN PHY.
+
+- Language: Verilog
+
+
+## [OpenOFDM](https://github.com/open-sdr/openofdm)
+Sythesizable, modular Verilog implementation of 802.11 OFDM decoder.
+
+- Language: Verilog
+
+## [802.11a](https://github.com/sadrasabouri/802.11a)
+Software-Hardware Implementation of IEEE 802.11a Wifi Standard
+
+- Language: Verilog
+
+## [Project RA-Sentinel - a Radio Access Sentinel](https://github.com/Tobias-DG3YEV/RA-Sentinel)
+RA-Sentinel is an open-source project focused on creating a cost-effective, small, and low-power wide band radio receiver device that employs an FPGA to automatically detect malicious attacks on Wifi access points, such as Man in the Middle and Denial of Service attacks. By monitoring any Wifi cell, the device enhances internet safety for everyday users. The device features low-cost receive-only chips that digitize 40 MHz of the Wifi radio spectrum at 2.4 GHz. An FPGA extracts relevant properties from demodulated and decoded packets in real-time without storage. These properties are then processed by a neural network, also implemented on the FPGA, to determine if the traffic is genuine or an attack.
+
+- Language: VHDL
+
+## [NoCRouter - RTL Router Design in SystemVerilog](https://github.com/agalimberti/NoCRouter)
+We developed a Network-on-Chip interconnection module with a 2D mesh topology, enabling the connection of computing nodes either in a direct or indirect network.
+
+- Language: SystemVerilog
+
+## [JARVIS](https://github.com/hardware-fab/JARVIS)
+JARVIS (Just A RISC-V Infrastructure for SCA) is a research framework for side-channel analysis (SCA) on FPGA-based IoT-class computing platforms.
+
+- Language: Verilog
+
+## [802.11a-PHY](https://github.com/amansouri3476/802.11a-PHY)
+Hardware implementation (by Verilog HDL) and Software Implementation (by Matlab) of IEEE's 802.11a standard for transmitter and receiver sides of PHY
+
+- Language: Verilog
+
+
+## [OFDM modem](https://github.com/freecores/ofdm/tree/master)
+OFDM modem
+
+- Language: VHDL
+
+## [OFDM RX Path in VHDL](https://github.com/n-haminger/ofdm_rx_vhdl)
+Implementation of an OFDM RX path in VHDL.
+
+- Language: VHDL
+
+## [IEEE 802.16 OFDM-based transceiver system](https://github.com/phthinh/OFDM_802_16)
+IEEE 802.16 OFDM-based transceiver system
+
+- Language: Verilog
+
+## [IEEE 802.11 OFDM-based transceiver system](https://github.com/phthinh/OFDM_802_11)
+IEEE 802.11 OFDM-based transceiver system
+
+- Language: Verilog
+
+## [IEEE 802.22 OFDM-based transceiver system](https://github.com/phthinh/OFDM_802_22)
+This repos contains the implementation of IEEE 802.22 (i.e. WRAN) OFDM-based transceiver system. This is stored in 2 separate parts, i.e. transmitter (TX) and receiver (RX).
+
+- Language: Verilog
+
+## [Multi-Standard OFDM-based transmitter for cognitive radios.](https://github.com/phthinh/OFDM_TX_CR)
+This repos contains the implementation of Multi-Standard OFDM-based transmitter that supports generating the transmited signals of 802.11, 802.16, 802.22. The operating standard of transmitter is dynamically switched by changing the configuration in run-time.
+
+- Language: Verilog
+
+## [RFSoC OFDM Transceiver](https://github.com/strath-sdr/rfsoc_ofdm)
+PYNQ example of an OFDM Transmitter and Receiver on RFSoC.
+
+- Language: VHDL
+
+## [OFDM-on-FPGA](https://github.com/FlyHighInSky/OFDM-on-FPGA)
+OFDM in FPGA
+
+- Language: Verilog
+
+## [AD9361_TX_1MHz_Baseband_800Hz_IF](https://github.com/Grootzz/AD9361_TX_1MHz_Baseband_800Hz_IF)
+A project demonstrate how to config ad9361 to TX mode
+
+- Language: Verilog
+
+## [AD9361_TX_MSK](https://github.com/Grootzz/AD9361_TX_MSK)
+A project demonstrate how to config ad9361 to TX mode and how to transmit MSK
+
+- Language: Verilog
+
+## [AD9361_TX_GMSK](https://github.com/Grootzz/AD9361_TX_GMSK)
+A project demonstrate how to config ad9361 to TX mode and how to transmit GMSK
+
+- Language: VHDL
+
+## [VLSI-2-Project](https://github.com/HarshithBathula/encoder-decoder-for-CDMA)
+VLSI-2 Master of Science team project.
+
+- Language: VHDL
+
+## [DESIGN-AND-IMPLEMENTATION-OF-CDMA-BASED-LOW-POWER-VLSI-ROUTER](https://github.com/ThirupathiReddyPuchakayala/DESIGN-AND-IMPLEMENTATION-OF-CDMA-BASED-LOW-POWER-VLSI-ROUTER)
+This project presents a scalable, high-performance VLSI router architecture for Network-on-Chip (NoC) platforms, using Code Division Multiple Access (CDMA) to enable concurrent data transfers with reduced latency and power consumption. Built with Verilog HDL and implemented on an Artix-7 FPGA.
+
+- Language: Verilog
+
+## [audio_dsp](https://github.com/maciejkwasek/audio_dsp)
+FPGA audio streamer with dsp operations like tremolo and echo.
+
+- Language: VHDL
+
+## [audio_gen](https://github.com/maciejkwasek/audio_gen)
+1khz 16-bit tone generator using fpga and i2s DAC
+
+- Language: VHDL
+
+## [meshNetwork](https://github.com/nasa/meshNetwork)
+The Mesh Network Communication System is a peer-to-peer communication network architecture that enables communication between network nodes of various types. The initial primary goal of the system was to enable communication between small formations of cubesats or other small satellites, but the basic mesh architecture is applicable to data exchange between network assets of any type. The system has been flight tested on formations of small unmanned aerial systems (sUAS) and shown to provide low latency data throughput for dynamic flight environments.
+
+- Language: VHDL
+
+## [acdma-crossbar](https://github.com/khaled-e-a/acdma-crossbar)
+System-Verilog implementation of the ACDMA crossbar
+
+- Language: Verilog
+
+## [agc](https://github.com/bzisjo/agc)
+Digital Automatic Gain Control Module
+
+- Language: Verilog
+
+## [Integrated Automatic Gain Control](https://github.com/ryanrocket/caravel_automatic_gain_control)
+An Automatic Gain Control (AGC) feedback-loop oriented towards baseband applications (0-600 MHz) without the need for integrated inductors.
+
+- Language: Verilog
