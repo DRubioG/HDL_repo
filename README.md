@@ -17,5 +17,3 @@
 ## [Tutorials](./Tutorials.md)
 
 ## [Books](./Books.md)
-
-## [Others Tools](./others_tools.md)

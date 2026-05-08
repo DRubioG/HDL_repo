@@ -1,114 +1,606 @@
 # FW Modules
 
+These are the FW modules repository.
+
 ## Generic
 
-### [Taxi](https://github.com/fpganinja/taxi)
-
-### [PoC](https://github.com/VHDL/PoC)
-
 ### [Open-logic](https://github.com/open-logic/open-logic)
+Open Logic FPGA Standard Library
+
+- Language: VHDL
+
+### [vhdl-dsp-building-blocks](https://github.com/AlbertoMarquillas/vhdl-dsp-building-blocks)
+A collection of VHDL digital design building blocks implemented as part of a learning project in digital systems and hardware description. This repository includes 12 exercises covering a wide range of digital design concepts: from basic combinational logic to sequential circuits, filters, and the integration of IP cores.
+
+- Language: VHDL
+
+### [VHDL-extras Library](https://github.com/kevinpt/vhdl-extras)
+Flexible VHDL library
+
+- Language: VHDL
+
+### [Hardware-Modeling-Using-VHDL](https://github.com/SamanKhamesian/Hardware-Modeling-Using-VHDL)
+This repository will hold source codes for some simple projects based on VHDL language
+
+- Language: VHDL
+
+### [XESS VHDL Library Files](https://github.com/xesscorp/VHDL_Lib)
+These are VHDL files for modules that are useful in a variety of larger designs for XESS FPGA boards (and possibly others).
+
+- Language: VHDL
+
 
 ### [PSI Common](https://github.com/paulscherrerinstitute/psi_common)
+Common elements for FPGA Design (FIFOs, RAMs, etc.)
+
+- Language: VHDL
+
+## SATA
+
+### [sata_2_host_controller](https://github.com/CoreyChen922/sata_2_host_controller)
+Sata 2 Host Controller for FPGA implimentation. SATA is a computer bus interface that connects host bus adapters to mass storage devices such as hard disk drives and optical drives .The SATA Host Controller IP is able to transfer data to and from a SATA device.
+
+- Language: Verilog
+
+
+### [sata3_host_controller](https://github.com/CoreyChen922/sata3_host_controller)
+It is SATA 3 host controller. Using this you can read write to sata3 sdd/hdd from your fpga logic with simple memory like interface.
+
+- Language: Verilog
+
+### [Groundhog](https://github.com/fpgasystems/groundhog)
+Groundhog implements a SATA host bus adapter. This Verilog-based project creates an easy-to-use interface between a user circuit on a Xilinx FPGA and a SATA hard drive or SSD.
+
+- Language: Verilog
+
+## NVME
+
+### [NVMeCHA](https://github.com/yhqiu16/NVMeCHA)
+NVMeCHA is an ultralow-latency and high-throughput NVMe controller with a highly parallel, pipelined, and scalable architecture that accommodates one admin controller and multiple fully hardware-automated I/O controllers. The admin controller features the software-hardware co-design, where the complex processing of the NVMe admin commands is managed by software whereas the data transmission over PCIe is handled by hardware. This hybrid architecture combines software flexibility and hardware efficiency to reduce CPU resources and improve performance. The I/O controller is designed with a highly parallel and pipelined hardware architecture that allows many NVMe I/O commands to be processed in parallel without any software intervention. Each I/O controller is corresponding to one NVMe I/O queue pair.
+
+- Language: Verilog, VHDL
+
+
+
+## SD
+
+### [SD-Card controller](https://github.com/ZipCPU/sdspi)
+SD-Card controller, using either SPI, SDIO, or eMMC interfaces
+
+- Language: Verilog
 
 ## FFTs
+
+### [Radix-2 FFT - VHDL Implementation](https://github.com/bugratufan/radix2-fft-vhdl)
+VHDL implementation of radix2 fft pipeline algorithm for IEEE-754 single precision floating point data format
+
+- Language: VHDL
+
+### [FFT Verilog](https://github.com/roo16kie/FFT_verilog)
+using verilog to implement Fast Fourier Transform
+
+- Language: Verilog
+
+### [Integer FFT/IFFT cores](https://github.com/hukenovs/intfftk)
+Fully pipelined Integer Scaled / Unscaled Radix-2 Forward/Inverse Fast Fourier Transform (FFT) IP-core for newest Xilinx FPGAs
+
+- Language: Verilog, VHDL
+
+### [Floating point (FP23) FFT/IFFT cores](https://github.com/hukenovs/fp23fftk)
+Floating point Forward/Inverse Fast Fourier Transform (FFT) IP-core for newest Xilinx FPGAs
+
+- Language: Verilog, VHDL
+
+### [r22sdf](https://github.com/nanamake/r22sdf)
+Pipeline FFT Implementation in Verilog HDL
+
+- Language: Verilog
+
+
+### [8-point-FFT-using-Verilog](https://github.com/Dhruv6730/8-point-FFT-using-Verilog)
+Implementation of an 8-point fast fourier transform using SystemVerilog Hardware Description Language. 
+
+- Language: Verilog
+
+### [FFT-using-Verilog(RADIX-2)](https://github.com/Devashrutha/FFT-using-Verilog-RADIX-2)
+FFT is responsible for converting a signal into individual spectral components and thereby providing frequency information about the signal. The implementation of FFT is vast in the field of Digital Signal Processing and Communication. Verilog implementation of the FFT with reduced generation logic or reduced complexity is the proposed architecture, where the two inputs and two outputs of butterflies can be used to exchange all data and addresses in FFT dispensation.
+
+- Language: Verilog
+
+### [32-point-FFT-Verilog-design-based-DIT-butterfly-algorithm](https://github.com/AhmedAalaaa/32-point-FFT-Verilog-design-based-DIT-butterfly-algorithm)
+This project aims to design an 32-point FFT (Fast Fourier Transform) based DIT (decimation in time) Butterfly Algorithm with multiple clock domains and time-shared design
+
+- Language: Verilog
+
+### [dblclockfft](https://github.com/ZipCPU/dblclockfft)
+A configurable C++ generator of pipelined Verilog FFT cores
+
+- Language: Verilog
+
+### [Fast Fourier Transform using Cooley-Tukey Algorithm in Verilog](https://github.com/AugustinJose1221/FFTx32)
+A 32 point radix-2 FFT module written in Verilog
+
+- Language: Verilog
+
+### [FFT](https://github.com/Jefferson-Lopes/FFT)
+FFT algorithm implementation on an FPGA for processing 2^N points from the BINGO telescope.
+
+- Language: Verilog
+
+### [FFT64](https://github.com/vtsal/fft64)
+VHDL FPGA implementation for 64-point FFT using 18-bit fixed-point arithmetic
+
+- Language: VHDL
+
+### [DFT32](https://github.com/vtsal/dft32)
+32-point DFT using 18-bit fixed point arithmetic with single-cycle complex multiply-accumulates
+
+- Language: VHDL
+
+### [32 BIT FFT](https://github.com/steinmatt/vhdl_32bit_fft)
+32 Bit FFT built in VHDL for ELEC 598 in Spring 2019
+
+- Language: VHDL
+
+### [VHDL_cooley-tukey_fft](https://github.com/guilbaudl/VHDL_cooley-tukey_fft)
+VHDL implementation of a 8-points FFT using Cooley-Tukey algorithm during academic lessons with Martin Deshardillier, my classmate.
+
+- Language: VHDL
+
+### [High Throughput FFT Implementation](https://github.com/benreynwar/htfft)
+A high throughput FFT implementation
+
+- Language: VHDL
+
+
+### [fpga-fft](https://github.com/owocomm-0/fpga-fft)
+A highly optimized streaming FFT core based on Bailey's 4-step large FFT algorithm
+
+- Language: VHDL
+
+### [FFT for Xilinx Spartan 6 FPGA](https://github.com/Rookfighter/fft-spartan6)
+An implementation of the FFT for the Spartan 6 FPGA.
+
+- Language: VHDL
+
+### [VHDL modular FFT radix 2](https://github.com/sampai97/Modular-FFT-radix-2)
+VHDL modular Fast Fourier Transform based on Cooley-Tukey algorithm
+
+- Language: VHDL
+
 
 ## Cyphers
 
 ### [FPGA implementation of Chinese SM4 encryption algorithm](https://github.com/gongxunwu/sm4-verilog)
+This project is an implementation of Chinese SM4 (also known as sms4) encryption algorithm.
+
+- Language: Verilog
+
 
 ### [FPGA SM3 HASH](https://github.com/gongxunwu/sm3-verilog)
+This is an implementation of Chinese SM3 hash algorithm.
+
+- Language: Verilog
+
+### [ascon_lwc_aead](https://github.com/vtsal/ascon_lwc_aead)
+Ascon AEAD with Basic Iterative Architecture in LWC API
+
+- Language: VHDL
 
 ## Filters
 
 ### [Symmetric FIR Filter Implementation in Verilog](https://github.com/yigitbektasgursoy/symmetric_FIR_Filter_Verilog)
+A pipelined Symmetric FIR (Finite Impulse Response) filter implementation in Verilog HDL.
+
+- Language: Verilog
+
+### [FIR-Filter-VHDL-Implementation](https://github.com/ZiliottoFilippoDev/FIR-Filter-VHDL-Implementation)
+FPGA implementation via VHDL and Python simultation for a low-pass FIR Filter. Testbenches before the implmentation are also available.
+
+- Language: VHDL
+
+### [VHDL-FIR-filters](https://github.com/BBN-Q/VHDL-FIR-filters)
+Synthesizable FIR filters in VHDL
+
+- Language: VHDL
+
+### [FIR Filter](https://github.com/mirawara/FIR-Filter)
+Digital circuit that implements a low-pass Finite Impulse Response (FIR) filter of order N (N=7).
+
+- Language: VHDL
+
+### [FIR Filter With VHDL](https://github.com/geoalx/FIR-VHDL)
+The concept of this project is to design different implementations of the same FIR filter (more about FIR filters here) using VHDL for the Xilinx Zynq 7000 Soc and compatible with Zybo Z7 development board. The FIR filter is build with 8 bit numbers and with 8 coefficients. The system has an input of 8 bits and aoutput of 19 bits.
+
+- Language: VHDL
+
+### [PMOD I2S implementation with FIR filter](https://github.com/aidinattar/PMOD-FIR-filter-VHDL)
+Implementation of a FIR-filter on a FPGA and its employment in an audio system obtained using a PMOD I2S2.
+
+- Language: Verilog
+
+
+### [FIR-Filter-in-Verilog](https://github.com/Divyansh03/FIR-Filter-in-Verilog)
+8-Bit FIR Filter in Verilog using Pipelining
+
+- Language: Verilog
+
+### [Low-Pass FIR Filter](https://github.com/samiyaalizaidi/FIR-Filter)
+Implementation of a low-pass FIR filter in Verilog HDL.
+
+- Language: Verilog
+
+
+### [Verilog-FIR](https://github.com/Grootzz/Verilog-FIR)
+FIR implemention with Verilog
+
+- Language: Verilog
+
+### [Digital-Design-of-FIR-Filter-Transposed-Structure](https://github.com/basemhesham/Digital-Design-of-FIR-Filter-Transposed-Structure)
+Design and Validation of a Customizable 50th-Order Low-Pass FIR Filter. Transitioning from MATLAB Modeling to Verilog RTL Design and simulation Testing.
+
+- Language: Verilog
+
+### [FIR-filter](https://github.com/ZhipengFan1407/FIR-Filter)
+A 64-tap 16-bit FIR filter in Verilog.
+
+- Language: Verilog
+
+### [FIR Filter](https://github.com/TristanSaidi/FIR-Filter-Verilog)
+FIR Filter
+
+- Language: Verilog
+
+### [Fixed Point FIR Verification](https://github.com/bvsnithin/fixed-point-fir-verification)
+This project demonstrates how a digital signal processing block can be modeled in MATLAB and then validated against its hardware implementation written in Verilog. A simple FIR filter is used as the example, with emphasis on fixed-point behavior.
+
+- Language: Verilog
+
+### [IIR Filter Synthesizable Unit Specifications](https://github.com/jg-fossh/IIR_FILTER)
+IIR Parallel Filter
+
+- Language: Verilog
+
+### [iir-bandstop-filter](https://github.com/amoudgl/iir-bandstop-filter)
+Implementation of pipelined IIR bandstop filter in Verilog, C++ and MATLAB with fixed point arithmetic
+
+- Language: Verilog
+
+### [Multi_IIR](https://github.com/delhatch/Multi_IIR)
+Multi-band IIR filter in Verilog. Uses time-domain multiplexing of a single, fixed-point, IIR filter to create a 27-band filter.
+
+- Language: Verilog
+
+### [Discrete-Time IIR Filter (lowpass - real)](https://github.com/aignacio/iir_filter)
+IIR Lowpass Filter
+
+- Language: Verilog
+
+### [IIR_EQ](https://github.com/delhatch/IIR_EQ)
+IIR audio filter in Verilog, running on Zedboard. Fractional integer coefficients.
+
+- Language: VHDL
+
+### [1st-Order IIR Filter (AXI-Stream) on FPGA](https://github.com/VRM21-Studios/IIR-1st-Order-Module-FPGA)
+A first-order IIR filter for 16-bit PCM stereo data implemented on an FPGA with fixed-point representation.
+
+- Language: Verilog
+
+### [IIR-Filter](https://github.com/ckevar/IIR-Filter)
+IIR Filter for audio application
+
+- Language: VHDL
+
+### [IIR-Bandpass-VHDL](https://github.com/axmora/IIR-Bandpass-VHDL)
+IIR Bandpass filter designed in MATLAB and adapted into VHDL made as final pregrade project for Electronic and Automation degree granted by ESPOL
+
+- Language: VHDL
+
+### [VIIRF](https://github.com/MauererM/VIIRF)
+Hardware description (VHDL) and configuration scripts (Python) of a versatile IIR Filter implemented as cascaded SOS/biquads. No vendor-specific hardware constructs used.
+
+- Language: VHDL
+
+
+### [FPGA-Audio-IIR](https://github.com/YetAnotherElectronicsChannel/FPGA-Audio-IIR)
+IIR-filters for audio signal processing in a FPGA.
+
+- Language: VHDL
+
+### [IIR Filter on FPGA](https://github.com/gabrielebaris/iir-audio-filter-fpga)
+Academic project for the course of Digital Systems Design. The aim of the project was to design and implement an IIR audio filter on FPGA
+
+- Language: VHDL
+
+### [IIR Filter IP](https://github.com/NuclearKev/iir-hardware)
+Xilinx Vivado IIR Filter Compiler IP
+
+- Language: VHDL
+
+
+## RNG
+
+## Cordic
+
+### [CORDIC VHDL](https://github.com/LucasJSch/cordic_vhdl)
+Implementation of CORDIC-algorithm with VHDL.
+
+- Language: VHDL
+
+### [VHDL CORDIC](https://github.com/pashwin92/vhdl-cordic)
+VHDL CORDIC
+
+- Language: VHDL
+
+### [Cordic](https://github.com/freecores/cordic)
+CORDIC core
+
+- Language: VHDL
+
+### [Cordic DDS](https://github.com/jgibbard/cordic_dds_vhdl)
+Generates sine and cosine signals using a pipelined cordic method.
+
+- Language: VHDL
+
+### [Cordic VHDL](https://github.com/nachocarballeda/cordic_vhdl)
+Cordic system implemented in VHDL FPGA (Spartan3E)
+
+- Language: VHDL
+
+### [Cordic](https://github.com/sadrasabouri/CORDIC)
+Implementation of CORDIC Algorithms Using Verilog
+
+- Language: Verilog
+
+### [Cordic](https://github.com/cebarnes/cordic)
+An implementation of the CORDIC algorithm in Verilog.
+
+- Language: Verilog
+
+### [Cordic Verilog](https://github.com/cassuto/CORDIC-all-in-one-verilog)
+FPGA version of CORDIC algorithm that evaluates all the trigonometric and anti-trigonometric functions.
+
+- Language: Verilog
+
+### [Cordic Processor Verilog](https://github.com/Hrushti/Cordic-Processor-in-Verilog)
+Cordic (Volder's algorithm) is an iterative method to compute a wide range of mathematical functions. It stands for COordinate Rotation DIgital Computer.
+
+- Language: Verilog
+
+### [Pipelined CORDIC Engine in Verilog](https://github.com/Pranav-2045/CORDIC)
+This repository contains a synthesizable, 16-bit, 16-stage pipelined CORDIC (Coordinate Rotation Digital Computer) engine written in Verilog. It's designed to calculate the sine and cosine of a given input angle with high throughput, making it ideal for applications in Digital Signal Processing (DSP), communications, and real-time control systems.
+
+- Language: Verilog
+
+### [Cordic Unit](https://github.com/SudeepJoshi22/CORDIC-Unit)
+CORDIC Unit designed in Verilog HDL. Completely reconfigurable with the number of iterations and Qm.n format
+
+- Language: Verilog
+
 
 ## MAC
 
-### [](https://github.com/erihsu/INT_FP_MAC)
+### [INT_FP_MAC](https://github.com/erihsu/INT_FP_MAC)
+The design is a multiplier accumulator (MAC) support both INT8 and FP16 data format. The whole design is ASIC-specific and fully sythesizable independent of any IPs.
+
+- Language: Verilog
+
+### [MAC_Verilog](https://github.com/roo16kie/MAC_Verilog)
+Using verilog to implement MAC (Multiply Accumulate) . Verifying it by testbench .
+
+- Language: Verilog
+
+### [Floating-point-MAC-verilog](https://github.com/Parimala6/Floating-point-MAC-verilog)
+The proposed MAC unit is implemented in Xilinx ISE Design suite 2018.2 on ZedBoard Zynq Evaluation and Development Kit (xc7z020clg484-1). Both Floating Point adder and multiplier are fully synthesizable. The above approach has been adapted from [Implementation of 32 Bit Floating Point MAC Unit to Feed Weighted Inputs to Neural Networks].
+
+- Language: Verilog
+
+### [Floating-MAC-in-verilog](https://github.com/Ho97/Floating-MAC-in-verilog)
+Floating mac from half precision inputs to single precision output
+
+- Language: Verilog
+
+
 
 ## Comms
 
 ### [digital-radio-vhdl](https://github.com/AlbertoMarquillas/digital-radio-vhdl)
+A complete QPSK transmitter designed and implemented in VHDL. This repository organizes the source code, testbenches, and documentation of a full digital radio chain, originally developed as a university practice, but restructured and documented as a standalone project.
+
+- Language: VHDL
+
 
 ## Cores
 
+### [nano-cpu32k](https://github.com/cassuto/nano-cpu32k)
+Linux-capable superscalar out-of-order RISC core (with Cache& MMU) and SoC, having been verified on Xilinx Kintex-7 FPGA.
+
+- Language: Verilog
+
+
+### [PicoRV32](https://github.com/YosysHQ/picorv32)
+PicoRV32 is a CPU core that implements the RISC-V RV32IMC Instruction Set. It can be configured as RV32E, RV32I, RV32IC, RV32IM, or RV32IMC core, and optionally contains a built-in interrupt controller.
+
+- Language: Verilog
+
+### [Rudi-RV32I](https://github.com/hamsternz/Rudi-RV32I)
+A rudimental RISCV CPU supporting RV32I instructions, in VHDL
+
+- Language: VHDL
+
+
+### [RISCV HDL](https://github.com/sergeykhbr/riscv_vhdl)
+Portable RISC-V System-on-Chip implementation: RTL, debugger and simulators
+
+- Language: Verilog, VHDL
+
 ### [RISCY](https://github.com/mongrelgem/RISCY)
+Simple RISC-V RV32I CPU in VHDL for use in FPGA Designs
+
+- Language: VHDL
+
 
 ### [Altor32](https://github.com/ultraembedded/altor32)
+AltOR32 is an OpenRISC 1000 architecture derived RISC CPU targeted at small FPGAs and contains only the most basic ISA features from the OpenRisc project. Instructions & registers relating to Vector, floating-point, 64-bit extensions, MMU & Cache have been omitted. The aim of AltOR32 is to provide a simple 32-bit soft CPU architecture aimed at control applications that can fit in low-end FPGA technology.
+
+- Language: Verilog
+
 
 ## Ethernet
 
+### [Gigabit Ethernet Application Note](https://github.com/enclustra/GigabitEthernetAppNote)
+Gigabit Ethernet
+
+- Language: VHDL
+
+### [Custom 10GBASE-R PHY (VHDL)](https://github.com/adilsondias-engineer/33-fpga-10gbe-phy-custom)
+A complete custom implementation of the 10GBASE-R Physical Layer (PHY) in VHDL. This implementation provides full control over the 10 Gigabit Ethernet physical layer without relying on encrypted vendor IP.
+
+- Language: VHDL
+
 ### [XGbE_lib](https://github.com/staerz/XGbE_lib)
+This repository provides XGbE_lib, a VHDL library for 10 GbE supporting UDP/IP and embedded support for ARP, ICMP and DHCP.
 
 - Language: VHDL
 
 ### [verilog-ethernet](https://github.com/alexforencich/verilog-ethernet)
+Verilog Ethernet components for FPGA implementation
 
 - Language: Verilog
+
+### [10/100/1000 VHDL Ethernet MAC](https://github.com/yol/ethernet_mac)
+Tri-mode (10/100/1000) full-duplex FPGA ethernet MAC in VHDL
+
+- Language: VHDL
+
+### [Ethernet Mac - VHDL Implementation](https://github.com/pabennett/ethernet_mac)
+A VHDL implementation of an Ethernet MAC
+
+- Language: VHDL
+
+
+### [LMAC_CORE3](https://github.com/lewiz-support/LMAC_CORE3)
+Ethernet MAC IP Core for 100G/50G/40G/25G/10Gbps
+
+- Language: VHDL
+
+### [gigabit_ethernet](https://github.com/hVHDL/hVHDL_gigabit_ethernet)
+VHDL library for synthesizable minimal gigabit ethernet with RGMII interface, minimal ethernet, ip and udp header parsers.
+
+- Language: VHDL
+
+### [1000BASE-X](https://github.com/freecores/1000base-x)
+1000BASE-X IEEE 802.3-2008 Clause 36 - Physical Coding Sublayer (PCS)
+
+- Language: Verilog
+
+
+### [Passe_Passe](https://github.com/0xArt/Passe_Passe_Network_Switch)
+A FPGA Layer 2 network switch that supports virtual ports for efficient UDP data transmission and reception. The use of virtual ports facilitates seamless integration with various applications requiring UDP communication, optimizing performance and reducing latency in real-time data transfer scenarios. It currently supports RMII and RGMII interfaces, offering flexibility across Ethernet standards. This design enables dynamic resource management without hardware changes, ideal for high-performance networking environments requiring low latency and real-time communication.
+
+- Language: Verilog
+
+## GMII
+
+### [GMII-Packet-Generator-VHDL](https://github.com/Maeur1/GMII-Packet-Generator-VHDL)
+A Packet Generator using VHDL to make Gigabit level traffic
+
+- Language: VHDL
+
+### [RGMII_Ethernet_Transceiver_Verilog](https://github.com/0xArt/RGMII_Ethernet_Transceiver_Verilog)
+Verilog module to transmit/receive to/from RGMII compatible ethernet PHY
+
+- Language: Verilog
+
 
 
 ## RoCEv2
 
 ### [100G RoCE2](https://github.com/Gabriele-bot/100G-verilog-RoCEv2-lite)
+TX only RoCEv2. Super stripped down version of a RoCEv2 endpoint. Up to now only RC RDMA WRITE (with and without IMMEDIATE) RC SEND(with and without IMMEDIATE) are supported . RX part is there only to read ACKs and NAKs.
+
+- Language: Verilog
+
 
 ## Jesd204
 
 ### JESD204B
 
 #### [JESD204B Transport and Data Link Layer](https://github.com/Anthon1e/JESD204B-Transport-and-Data-Link-Layer)
+This is a serialized interface between data converters (ADC/DAC) and logic devices (FPGA/ASIC). To further understand, this device specification has been divided into layers, including Application Layer, Transport Layer, Data Link Layer and Physical Layer. This repository will focus on the Transport Layer, the optional Scramber/Descrambler block and the 8B/10B Encode in the Data Link Layer. The section in Data Link Layer which deals with synchronization and alignment (CGS, ILAS, IFAS), are also developed but are left separately in another folder. This is because I am not sure what user data from an ADC would look like to write test cases accurately enough for the simulation. However, the implementation would still work for any inputs.
 
 - Language: Verilog
-
-### [ListenToJESD204B](https://github.com/pulp-bio/ListenToJESD)
 
 
 ## Aurora
 
-### [AuroraFlow](https://github.com/pc2/AuroraFlow)
-
 ### [aurora_64b66b-vhdl-sim](https://github.com/mnemocron/aurora_64b66b-vhdl-sim)
+VHDL files to simulate the Aurora 64b66b protocol in Xilinx Vivado
+
+- Language: Verilog, VHDL
+
 
 ### [Aurora RAW](https://github.com/MEEPproject/aurora-raw)
+FPGA Shell aurora point to point solution
+
+- Language: VHDL
+
 
 ### [Aurora](https://github.com/wolve265/aurora)
+Implementation of the Aurora 8b/10b Simplex Transmitter
+
+- Language: SystemVerilog
 
 
 ## PCIe
 
 ### [VerCoLib-PCIe](https://github.com/TI-Bonn/vercolib_pcie)
+The Versatile Communication Library is a collection of VHDL modules to enable DMA data transfer over PCIe.
 
 - Language: VHDL
 
-### [Verilog PCI Express Components](https://github.com/alexforencich/verilog-pcie)
-
-- Language: SystemVerilog
-
-### [](https://github.com/antmicro/nvme-verilog-pcie)
 
 
 ### [PCIE Transaction Layer Verification](https://github.com/crusader2000/PCIE-Transaction-Layer-Verification)
+PCIe System Verilog Verification Environment developed for PCIe course
 
-- Language: Verilog
+- Language: SystemVerilog
 
 ### [KC705_pci_driver](https://github.com/GuillaumeTrebuchet/KC705_pci_driver)
+Very simple pci-express driver for my FPGA board
 
 - Language: VHDL
+
+### [VerCoLib-PCIe](https://github.com/TI-Bonn/vercolib_pcie)
+The Versatile Communication Library is a collection of VHDL modules to enable DMA data transfer over PCIe.
+
+- Language: VHDL
+
+
+
 
 ## NIC
 
 ### [Corundum](https://github.com/corundum/corundum)
+Corundum is an open-source, high-performance FPGA-based NIC and platform for in-network compute. Features include a high performance datapath, 10G/25G/100G Ethernet, PCI express gen 3, a custom, high performance, tightly-integrated PCIe DMA engine, many (1000+) transmit, receive, completion, and event queues, scatter/gather DMA, MSI interrupts, multiple interfaces, multiple ports per interface, per-port transmit scheduling including high precision TDMA, flow hashing, RSS, checksum offloading, and native IEEE 1588 PTP timestamping. A Linux driver is included that integrates with the Linux networking stack. Development and debugging is facilitated by an extensive simulation framework that covers the entire system from a simulation model of the driver and PCI express interface on one side to the Ethernet interfaces on the other side.
+
+- Language: Verilog
+
 
 
 ## Other pieces
 
 ### [8B/10B Encoder/Decoder](https://github.com/Anthon1e/8B-10B-Encoder-Decoder)
+8b/10b is a line code that maps 8-bit words to 10-bit symbols to achieve DC-balance and bounded disparity, which is used for telecommunications
 
 - Language: Verilog
 
 ### [ADRV9009 Receiver Signal Path (FIR Filters)](https://github.com/Anthon1e/ADRV9009-Receiver-Signal-Path-FIR-Filter)
+The ADRV9009 is a highly integrated, radio frequency (RF) transceiver. This is my attempt to implement the signal path on the receiver side, which consists multiple FIR filter designs to prevent data wrapping and overrange conditions.
 
 - Language: Verilog
 
 ### [Verilog DSP](https://github.com/alexforencich/verilog-dsp)
+Verilog digital signal processing components
 
 - Language: Verilog
