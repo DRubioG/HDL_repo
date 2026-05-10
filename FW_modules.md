@@ -12,12 +12,15 @@ These are the FW modules repository.
 - [Comms](#Comms)
 - [Cores](#Cores)
 - [Ethernet](#Ethernet)
+- [Floating points](#Floating_points)
+- [SpaceWire](#spacewire)
+- [MIL-STD-1553]()
 - [GMII](#GMII)
 - [RoCEv2](#RoCEv2)
 - [Jesd204](#Jesd204)
 - [PCIe](#PCIe)
 - [NIC](#NIC)
-- [Other pieces](#Other pieces)
+- [Other pieces](#Other_pieces)
 
 
 
@@ -271,6 +274,25 @@ A Verilog implementation of a von Neumann decorrelator
 - Language: Verilog
 
 
+### [sha512](https://github.com/secworks/sha512)
+Verilog implementation of the SHA-512 hash function.
+
+- Language: Verilog
+
+
+### [sha1](https://github.com/secworks/sha1)
+Verilog implementation of the SHA-1 cryptgraphic hash function.
+
+- Language: Verilog
+
+
+### [stream_cipher](https://github.com/jgaztelu/stream_cipher)
+Hardware implementation of Grain128a and Espresso ciphers
+
+- Language: VHDL
+
+
+
 
 
 ## Filters
@@ -491,17 +513,13 @@ Implementation of the FiGaRO TRNG for FPGAs
 
 - Language: Verilog
 
-### [sha512](https://github.com/secworks/sha512)
-Verilog implementation of the SHA-512 hash function.
+
+### [TRNG-True-Random-Number-Generator-in-Verilog](https://github.com/Gautham-8066/TRNG-True-Random-Number-Generator-in-Verilog)
+This repository contains a synthesizable Verilog implementation of a True Random Number Generator
 
 - Language: Verilog
 
-
-### [sha1](https://github.com/secworks/sha1)
-Verilog implementation of the SHA-1 cryptgraphic hash function.
-
-- Language: Verilog
-
+ 
 
 
 ## Cordic
@@ -646,7 +664,32 @@ Implemented a processor with RC5 Key-Expansion, Encryption and Decryption runnin
 
 - Language: VHDL
 
+### [AVR-Processor](https://github.com/agural/AVR-Processor)
+VHDL implementation of an AVR processor.
 
+- Language: VHDL
+
+### [LEON2](https://github.com/Galland/LEON2)
+LEON2 SPARC CPU IP core LGPL by Gaisler Research
+
+- Language: VHDL
+
+
+### [RV12](https://github.com/RoaLogic/RV12)
+The RV12 is a highly configurable single-issue, single-core RV32I, RV64I compliant RISC CPU intended for the embedded market. The RV12 is a member of the Roa Logic’s 32/64bit CPU family based on the industry standard RISC-V instruction set
+
+- Language: Verilog
+
+### [NoX RISC-V Core](https://github.com/aignacio/nox)
+RISC-V Nox core
+
+- Language: Verilog
+
+
+### [MIPS-VHDL-Vivado](https://github.com/IgnacioChirinos/MIPS-VHDL-Vivado)
+MIPS processor that performs matrix multiplication 3x3 based on VHDL and implemented in XILINX
+
+- Language: VHDL
 
 
 
@@ -699,10 +742,102 @@ VHDL library for synthesizable minimal gigabit ethernet with RGMII interface, mi
 - Language: Verilog
 
 
+### [An Open Source 10Gb Ethernet Switch](https://github.com/ZipCPU/eth10g)
+The main goal of this project is to demonstrate a 10Gb Ethernet switch. Packets will arrive in one of four SFP+ interfaces, and from there be routed as appropriately.
+
+- Language: Verilog
+
+
 ### [Passe_Passe](https://github.com/0xArt/Passe_Passe_Network_Switch)
 A FPGA Layer 2 network switch that supports virtual ports for efficient UDP data transmission and reception. The use of virtual ports facilitates seamless integration with various applications requiring UDP communication, optimizing performance and reducing latency in real-time data transfer scenarios. It currently supports RMII and RGMII interfaces, offering flexibility across Ethernet standards. This design enables dynamic resource management without hardware changes, ideal for high-performance networking environments requiring low latency and real-time communication.
 
 - Language: Verilog
+
+### [MII to RMII and MII to SMII](https://github.com/WangXuan95/FPGA-RMII-SMII)
+An FPGA-based MII to RMII & SMII converter to connect 100M ethernet PHY chip such as LAN8720 or KSZ8041TLI-S
+
+- Language: Verilog
+
+
+
+
+## Floating point
+
+### [32-bit Single Precision Floating Point Adder](https://github.com/prashal/fp_adder)
+Floating Point Adder in VHDL and Verification of result with matlab code
+
+- Language: VHDL
+
+
+### [Floating Point adder](https://github.com/RockingAayush/32bit-floating-point-adder)
+Floating Point adder
+
+- Language: Verilog
+
+
+### [Floating-Point-Adder](https://github.com/shahsaumya00/Floating-Point-Adder)
+32 bit pipelined binary floating point adder using IEEE-754 Single Precision Format in Verilog
+
+- Language: Verilog
+
+
+### [An efficient multi-format low-precision floating-point multiplier](https://github.com/balajirai/Floating-Point-Multiplier/tree/master)
+An efficient multi-format low-precision floating-point multiplier
+
+- Language: Verilog
+
+### [Floating-Point-multiplier](https://github.com/remusbompa/Floating-Point-multiplier)
+Implemented in VHDL a floating point multiplier which receives two IEEE 754 normalized numbers and return the product in IEEE 754 format. The designed is based on a 3-stages pipeline: add exponents and multiply mantissas, correct the exponent, normalize and adjust exponent. To increase performance, it uses a multiplication matrix circuit for binary multiplication of mantissas.
+
+- Language: VHDL
+
+
+### [Floating Point Single Precision Multiplier in SystemVerilog](https://github.com/tsarnadelis/HW2Project)
+This project implements a floating point single precision multiplier in SystemVerilog. The implementation is divided into several modules, each handling different aspects of the multiplication process. Additionally, testbenches are provided to verify the functionality and correctness of the multiplier.
+
+- Language: SystemVerilog
+
+### [Logic Networks final test Polimi - ENG](https://github.com/pitesse/IEEE754-floating-point-multiplier)
+Hardware-accurate IEEE 754 floating-point multiplier implementation (VHDL/Verilog), optimized for precision, low-latency and pipeline alignment
+
+- Language: Verilog, VHDL
+
+
+### [IEEE-754-Standard-64-bits-Floating-point-multiplication](https://github.com/Tsai-Cheng-Hong/IEEE-754-Standard-64-bits-Floating-point-multiplication-)
+IEEE 754 Standard(64-bits Floating point multiplication) 浮點數乘法 完成階段:Post-Layout
+
+- Language: Verilog
+
+
+### [A SYNTHESIZABLE VHDL FLOATING-POINT PACKAGE](https://github.com/xesscorp/Floating_Point_Library-JHU/tree/master)
+The FloatPt.vhd file contains all the components used to implement arithmetic operations with 32-bit IEEE standard floating-point numbers, along with the FloatPt package which contains all the declarations and functions to use the components. The components include FPP_MULT (for multiplication), FPP_ADD_SUB (for addition and subtraction) FPP_DIV (for division), and MantissaDivision (mantissa non-restoring division used in the FPP_DIV component). The package contains two functions: SIGNED_TO_FPP and FPP_TO_SIGNED for converting N-bit signed vectors to and from floating-point numbers, respectively.
+
+- Language: VHDL
+
+### [FPU Single and Double Precision](https://github.com/taneroksuz/fpu)
+This floating point unit is conform to IEEE 754-2008 standards. Supported operations are compare, min-max, conversions, addition, subtruction, multiplication, fused multiply add, square root and division in single and double precisions. Except square root and division all operations are pipelined.
+
+- Language: Verilog, VHDL
+
+
+### [High level vhdl floating point library](https://github.com/hVHDL/hVHDL_floating_point)
+high level VHDL floating point library for synthesis in fpga
+
+- Language: VHDL
+
+### [FPU-IEEE-754](https://github.com/akilm/FPU-IEEE-754)
+Synthesizable Floating point unit written using Verilog. Supports 32-bit (Single-Precision) Multiplication, Addition and Division and Square Root Operations based on the IEEE-754 standard for floating point numbers
+
+- Language: Verilog
+
+### [Floating-Point-ALU-in-Verilog](https://github.com/nishthaparashar/Floating-Point-ALU-in-Verilog)
+32-Bit Algorithms of Floating Point Operations are implemented on Verilog with logic Operations.
+
+- Language: Verilog
+
+
+
+
 
 ## GMII
 
@@ -780,6 +915,20 @@ The Versatile Communication Library is a collection of VHDL modules to enable DM
 
 - Language: VHDL
 
+### [Xilinx FPGA PCIe-XDMA Tutorial](https://github.com/WangXuan95/Xilinx-FPGA-PCIe-XDMA-Tutorial)
+
+- Language: Other
+
+
+### [VPIE](https://github.com/texane/vpcie)
+implement PCIE devices using C or VHDL and test them against a QEMU virtualized architecture
+
+- Language: VHDL
+
+
+
+
+
 
 
 
@@ -789,6 +938,97 @@ The Versatile Communication Library is a collection of VHDL modules to enable DM
 Corundum is an open-source, high-performance FPGA-based NIC and platform for in-network compute. Features include a high performance datapath, 10G/25G/100G Ethernet, PCI express gen 3, a custom, high performance, tightly-integrated PCIe DMA engine, many (1000+) transmit, receive, completion, and event queues, scatter/gather DMA, MSI interrupts, multiple interfaces, multiple ports per interface, per-port transmit scheduling including high precision TDMA, flow hashing, RSS, checksum offloading, and native IEEE 1588 PTP timestamping. A Linux driver is included that integrates with the Linux networking stack. Development and debugging is facilitated by an extensive simulation framework that covers the entire system from a simulation model of the driver and PCI express interface on one side to the Ethernet interfaces on the other side.
 
 - Language: Verilog
+
+
+
+## SpaceWire
+
+### [SpaceWire Light](https://github.com/freecores/spacewire_light)
+SpaceWire Light is a SpaceWire encoder-decoder.
+It is synthesizable for FPGA targets (up to 200 Mbit on Spartan-3).
+Application interfaces include a simple FIFO interface, as well as
+an AMBA bus interface for LEON3 system-on-chip designs.
+
+- Language: VHDL
+
+
+### [SpaceWire](https://github.com/freecores/spacewire)
+
+- Language: Verilog
+
+### [SpaceWireToGigabitEther](https://github.com/yuasatakayuki/SpaceWireToGigabitEther)
+SpaceWire-to-GigabitEther is an interface to SpaceWire networks for PC software via GigabitEthernet. Users can send/receive SpaceWire packets from/to a user program running on an ordinary PC to/from a SpaceWire node or router connected to the device. The class library written in C++ is also available for user programs which run on the PC. Using the library, users can perform Remote Memory Access Protocol (RMAP) to RMAP Target nodes connected to the converter through the SpaceWire network. This device is not flight qualified, but originally intended for SpaceWire/RMAP-based data acquisition system of scientific experiments and ground tests of flight modules which use SpaceWire interfaces.
+
+
+### [SpaceWireCODECIP_100MHz](https://github.com/shimafujigit/SpaceWireCODECIP_100MHz)
+SpaceWire IP codec
+
+- Language: VHDL
+
+
+### [Open-source SpaceWire RMAP IP Core ](https://github.com/shimafujigit/SpaceWireRMAPTargetIP)
+SpaceWire Remote Memory Access Protocol
+
+- Language: VHDL
+
+### [Open-source SpaceWire Router IP Core 6Port Version ](https://github.com/shimafujigit/SpaceWireRouterIP_6PortVersion)
+Open-source SpaceWire Router IP Core 6Port Version 
+
+- Language: VHDL
+
+### [SpaceWireRouter](https://github.com/AranelLindi/SpaceWireRouter)
+Fully functional SpaceWire router. Implemented in VHDL and under continuous development. See manual. Repository also contains a UART-SpaceWire adapter and several implementation files including constraints for Xilinx FPGAs.
+
+- Language: VHDL
+
+### [AXI_SpaceWire_IP](https://github.com/AranelLindi/AXI_SpaceWire_IP)
+Standalone IP with ARM-AMBA/AXI capable device. Enables sending and receiving data via SpaceWire protocol. Tested on Xilinx FPGA (ZYNQ).
+
+- Language: VHDL
+
+
+
+## MIL-STD-1553
+
+### [open1553](https://github.com/johnathan-convertino-afrl/open1553)
+Projects for building MIL-STD-1553 communications devices
+
+- Language: Verilog
+
+### [MS1553_Firmware](https://github.com/phillipjohnston/1553-Firmware)
+Contains VHDL implementing an 8085, Holt HI-6130 1553 IC, and Memory. Also includes firmware used to demo the system.
+
+- Language: VHDL
+
+### [mil-std-1553b-soc](https://github.com/fpga-soc/mil-std-1553b-soc)
+development interface mil-std-1553b for system on chip
+
+- Language: Verilog
+
+
+### [mil1553-spi](https://github.com/zhelnio/mil1553-spi)
+MIL-STD-1553 <-> SPI bridge with internal memory buffer support.
+
+- Language: Verilog
+
+### [UART pmod1553 FPGA Project](https://github.com/johnathan-convertino-afrl/uart_pmod1553)
+base uart pmod1553 project files without IP.
+
+- Language: Verilog
+
+### [pmod1553](https://github.com/johnathan-convertino-afrl/pmod1553)
+PMOD for MIL-STD-1553 bus comms
+
+- Language: Verilog
+
+
+### [](https://github.com/dointio/1553B_APB)
+soc_ip_1553B
+
+- Language: Verilog
+
+
+
 
 
 

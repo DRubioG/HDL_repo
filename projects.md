@@ -2,6 +2,13 @@
 
 These are the HDL projects:
 
+## [User forker](https://github.com/frontcover)
+This user has been forked many project, some of them about HDL.
+
+## [User forker](https://github.com/helloworld1983)
+This user has been forked many project, some of them about HDL.
+
+
 
 ## [FreeCores](https://github.com/orgs/freecores)
 This is a repository with many HDL projects.
@@ -67,10 +74,26 @@ Two RX-channel 6 GHz FMCW radar design files
 - Language: Verilog
 
 
+## [FPGA-Radar-Display](https://github.com/alfredoFBW/FPGA-Radar-Display)
+FPGA Radar Display implemented in VHDL
+
+- Language: VHDL
+
 ## [Vitis with 100 Gbps TCP/IP Network Stack](https://github.com/allincomm/Vitis_with_100Gbps_TCP-IP)
 100 Gbps TCP/IP stack for Vitis shells
 
 - Language: Verilog, SystemVerilog
+
+## [Ultra96V2 FPGA mmWave interface](https://github.com/nhma20/ultra96_mmwave_interface)
+Interfacing with mmWave-device (IWR6843AOPEVM) from Ultra96V2 FPGA
+
+- Language: VHDL
+
+
+## [mmWave FPGA Streamer](https://github.com/nhma20/mmwave-fpga-streamer)
+Reads and parses data from IWR6843AOP and streams it
+
+- Language: Verilog
 
 
 ## [kb_radar_course](https://github.com/farbius/kb_radar_course)
@@ -78,7 +101,10 @@ Radar course
 
 - Language: Verilog
 
+## [Radar-Pulse-Sync](https://github.com/frontcover/Radar-Pulse-Sync)
+Verilog FPGA code for radar pulse sync
 
+- Language: Verilog
 
 ## [FPGA_BASED_RADAR_ACQUISITION_AND_PREPROCESSING_UNIT](https://github.com/ramonblancocaamano/FPGA_BASED_RADAR_ACQUISITION_AND_PREPROCESSING_UNIT)
 FPGA BASED RADAR ACQUISITION AND PREPROCESSING UNIT
@@ -90,6 +116,18 @@ FPGA BASED RADAR ACQUISITION AND PREPROCESSING UNIT
 Code for paper entitled "Low Cost FPGA based Implementation of a DRFM System"
 
 - Language: Verilog
+
+
+## [Mixed VHDL/Verilog IQ demodulator](https://github.com/AlexUnderMoscow/HardwareIQDemodulator)
+mixed VHDL Verilog demodulator
+
+- Language: VHDL
+
+## [IQ Modulator Bias Control](https://github.com/atomlaser-lab/iq-bias-control)
+This project implements a digital bias controller for an IQ modulator running in carrier-suppressed single-sideband (CS-SSB) mode. It is based on this paper which detailed an analog stabilisation scheme using the same technique. Our arXiv submission, with more detail about our digital implementation and performance, can be found here. The basic idea is to add a low frequency signal to the main, high frequency signal used for CS-SSB and use the low frequency signal to measure the phase biases in the different Mach-Zehnder interferometers (MZIs) that make up the IQ modulator. Whereas the original work used purely analog techniques, this project levarages the fast analog input/output capabilities of the Red Pitaya STEMlab 125-14 platform.
+
+- Language: VHDL
+
 
 
 ## [usb-sniffer](https://github.com/ataradov/usb-sniffer)
@@ -471,6 +509,16 @@ An AXI DDR3 SDRAM controller for FPGA
 - Language: Verilog
 
 
+## [Uber DDR3](https://github.com/AngeloJacobo/UberDDR3)
+Opensource DDR3 Controller
+
+- Language: Verilog
+
+## [BrianHG-DDR3-Controller](https://github.com/BrianHGinc/BrianHG-DDR3-Controller)
+DDR3 Controller v1.65, 16 read/write ports, configurable widths, priority, auto-burst size & cache on each port. VGA/HDMI multiwindow video controller with alpha-blended layers. Docs & TBs included.
+
+- Language: Verilog
+
 ## [Reed Solomon Codes](https://github.com/lauchinyuan/reed_solomon_codes)
 Reed Solomon encoder written in verilog hardware description language
 
@@ -591,6 +639,12 @@ A work-in-progress for what is to be a software-free web server for static conte
 Receiving and processing 1080p HDMI audio and video on the Artix 7 FPGA
 
 - Language: VHDL
+
+
+## [HDMI_FPGA](https://github.com/dominic-meads/HDMI_FPGA)
+HDMI with Verilog and an FPGA.
+
+- Language: Verilog
 
 ## [gemmm2s](https://github.com/sthornington/gemmm2s)
 Verilog module for converting from AXI4 MM of Zynq GEM Ethernet DMA to AXI-Stream with packet boundaries
@@ -944,3 +998,707 @@ Digital Automatic Gain Control Module
 An Automatic Gain Control (AGC) feedback-loop oriented towards baseband applications (0-600 MHz) without the need for integrated inductors.
 
 - Language: Verilog
+
+## [PAGERANK_ALGORITHM](https://github.com/shahsaumya00/Google-Pagerank-Algorithm)
+Google Page rank Algorithm implemented using Verilog.
+
+- Language: Verilog
+
+
+
+## [Verilog-ADPLL](https://github.com/Tsai-Cheng-Hong/Verilog-ADPLL)
+All-Digital Phase-Locked Loop (ADPLL)
+
+- Language: Verilog
+
+
+## [systolic_array_matrix_multiplier](https://github.com/debtanu09/systolic_array_matrix_multiplier)
+This is a verilog implementation of 4x4 systolic array multiplier
+
+- Language: Verilog
+
+
+## [FpOC](https://github.com/WangXuan95/FPGA-FOC)
+FPGA based Field Oriented Control (FOC) for driving Permanent Magnet Synchronous Motors (PMSM) or Brushless DC Motors (BLDC)
+
+- Language: Verilog
+
+
+## [FPGA JPEG-LS image compressor](https://github.com/WangXuan95/FPGA-JPEG-LS-encoder)
+An FPGA-based JPEG-LS encoder, which provides lossless and near-lossless image compression with high compression ratios
+
+- Language: Verilog
+
+
+
+## [FPGA NFC (RFID)](https://github.com/WangXuan95/FPGA-NFC)
+An FPGA-based NFC (RFID) reader with a simple circuit rather than RFID chips
+
+- Language: Verilog
+
+## [FPGA LZMA compressor](https://github.com/WangXuan95/FPGA-LZMA-compressor)
+An FPGA-based LZMA compressor for generic data compression
+
+- Language: Verilog
+
+
+## [Hard-PNG](https://github.com/WangXuan95/FPGA-PNG-decoder)
+An FPGA-based PNG image decoder, which can extract original pixels from PNG files.
+
+- Language: Verilog
+
+
+## [HG-PIPE](https://github.com/hguq/HG-PIPE)
+HG-PIPE is the official open-source implementation of the paper "Vision Transformer Acceleration with Hybrid-Grained Pipeline." It is an FPGA-based accelerator for Vision Transformer (ViT) models. This project aims to accelerate the inference process of Vision Transformer models using hybrid-grained pipeline techniques, achieving outstanding inference performance and energy efficiency. The project provides the implementation of the accelerator as well as corresponding validation methods and on-board testing scripts.
+
+- Language: Verilog
+
+
+
+## [ViT-FPGA-TPU](https://github.com/gnodipac886/ViT-FPGA-TPU)
+FPGA based Vision Transformer accelerator (Harvard CS205)
+
+- Language: Verilog
+
+
+## [Pokemon-SystemVerilog Edition](https://github.com/gnodipac886/Pokemon-SystemVerilog-Edition)
+In this project, we implement a USB and VGA system that is able to control the movement of our character on a screen with USB keyboard inputs. Depending on which one of WASD key we input, the character will “go” into the corresponding direction.
+
+- Language: SystemVerilog
+
+
+## [pccx-v002](https://github.com/pccxai/pccx-v002)
+PCCX™ v002 IP-core package — board- and model-agnostic reusable RTL for LLM, Vision, Voice, and common subsystems.
+
+- Language: SystemVerilog
+
+## [CFAR](https://github.com/finnyphilip/CFAR)
+SONAR detection is one of the most important process which is carried out by comparing the received signal amplitude to a threshold value. Since there are so many disadvantages with fixed threshold, here adaptive threshold is used, known as Constant False Alarm Rate(CFAR).
+
+- Language: VHDL
+
+## [Constant False Alarm Rate](https://github.com/milovanovic/cfar)
+This repository contains a generator of parameterizable and runtime reconfigurable Constant False Alarm Rate (CFAR) engines writen in Chisel hardware design language. CFAR processors are used in radar digital signal processing systems as an indispensable block for object detection in cluttered and noisy environments. Proposed Chisel generator implements six different variants of the CFAR algorithms based on linear and nonlinear operations.
+
+- Language: Chisel
+
+
+## [Spectravel - Spectrometer on Caravel](https://github.com/milovanovic/caravel_spectrometer)
+Spectravel consists of an instance produced by a digital spectrometer generator designed in Chisel hardware design language. Caravel is connected to the Spectravel via Wishbone to AXI4 bridge. Block diagram of the Spectravel is given below and detailed explanation can be found inside cargo directory.
+
+- Language: Verilog
+
+
+## [RPHAX - Rapid Prototyping of Hardware Accelerators on Xilinx FPGAs](https://github.com/shariethernet/RPHAX)
+RPHAX provides a quick automation flow to develop and prototype hardware accelerators on Xilinx FPGAs. The user can develop the Hardware Accelerator in TL-Verilog/Verilog/System Verilog and use this flow to automatically package into an IP(AXI4, AXI4Lite, AXI Stream), create a Zynq based block design, top level wrappers and generate the bitstream.
+
+- Language: Others
+
+## [Verilog Generator of Neural Net Digit Detector for FPGA](https://github.com/ZFTurbo/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA)
+It's the project which train neural net to detect dark digits on light background. Then neural net converted to verilog HDL representation using several techniques to reduce needed resources on FPGA and increase speed of processing. Code is production ready to use in real device. It can be easily extended to be used with detection of other objects with different neural net structure.
+
+- Language: Verilog
+
+
+## [Image-Processing](https://github.com/ykqiu/image-processing)
+This project is a pipelined image processing in Verilog aimed at FPGA or ASIC where requirements for real-time processing is needed, and where simplicity and LUT usage are more important than maximising the image processing quality.
+
+- Language: Verilog
+
+## [FPGA_SVD](https://github.com/bzhao30/FPGA_SVD)
+FPGA implementation of singular value decomposition
+
+
+- Language: VHDL
+
+## [Glare-Reduction-Project](https://github.com/bzhao30/Glare-Reduction-Project)
+When driving at night, headlights from other cars can often be too bright, causing discomfort or lack of vision for the driver. This poses a problem because headlights seem to be getting increasingly brighter, while there has not been new technology to actively reduce the glare on the windshield. For older drivers or those with sensitive eyes, the glare may become frightening or dangerous and jeopardizes people’s safety on the road. Therefore, the goal of this project is to create an effective way of actively reducing the glare on the windshield without compromising the driver’s vision.
+
+- Language: VHDL
+
+
+## [HYPERSPACE 0.5](https://github.com/milovanovic/spectrometer_user_project)
+Spectrometer User Project for MPW-6 a.k.a. Hyperspace 0.5
+
+- Language: Verilog
+
+
+## [MobileNet in FPGA](https://github.com/ZFTurbo/MobileNet-in-FPGA)
+Generator of verilog description for FPGA MobileNet implementation. There are several pre-trained models available for frequent tasks like detection of people, cars and animals. You can train your own model easily on your dataset using code from this repository and have the same very fast detector on FPGA working in real time for your own task.
+
+- Language: Verilog
+
+## [Verilog Generator of Neural Net Digit Detector for FPGA](https://github.com/ZFTurbo/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA)
+It's the project which train neural net to detect dark digits on light background. Then neural net converted to verilog HDL representation using several techniques to reduce needed resources on FPGA and increase speed of processing. Code is production ready to use in real device. It can be easily extended to be used with detection of other objects with different neural net structure.
+
+- Language: Verilog
+
+
+## [mjpegZero — FPGA Hardware Motion JPEG Encoder](https://github.com/lcapossio/mjpegZero)
+Open source synthesizable MJPEG encoder written in behavioral Verilog 2001 with AXI interfaces, up to 1080p30 on low end AMD/Xilinx 7-Series FPGAs. Two operating modes: Full encodes with runtime quality control; Lite encodes with ~47% smaller LUT footprint and fixed synthesis-time quality.
+
+- Language: Verilog
+
+
+## [artix-eprog](https://github.com/vankxr/artix-eprog)
+This is a very basic implementation of the Space Invaders game.
+
+- Language: VHDL
+
+## [icyradio](https://github.com/vankxr/icyradio)
+Over-engineered SDR development board
+
+- Language: Verilog, VHDL
+
+## [FPGA-SensorFusion-EdgeAI](https://github.com/DanielAbreuFernandez/FPGA-SensorFusion-EdgeAI)
+FPGA-accelerated multi-sensor edge AI platform integrating RealSense depth vision and RTL-SDR RF sensing on a Zynq SoC.
+
+- Language: VHDL
+
+
+## [mkjpeg](https://github.com/trondd/mkjpeg)
+EV_JPEG_ENC core is intended to encode raw bitmap images into JPEG compliant coded bit stream. JPEG baseline encoding method is used.
+
+- Language: VHDL
+
+
+## [FPGA-based-spectrometer](https://github.com/Hongboo-Li/FPGA-based-spectrometer)
+This spectrometer displays the sound signal and its spectrum in real time and The sound frequency can reach 11kHz which is limited by the microphone chip in development board.If you want to reach higher frequency,you can connect another high-performance microphone chip to the board.
+
+- Language: VHDL
+
+
+## [Verilog-Spectrum-Analyzer](https://github.com/nhandyal/Verilog-Spectrum-Analyzer)
+FFT algorithm coded in Verilog. Designed to run on a Xillinx Spartan 6 FPGA board.
+
+- Language: Verilog
+
+
+## [SpectrumAnalyzer](https://github.com/dariusur/SpectrumAnalyzer)
+SpectrumAnalyzer is an FPGA-based real-time audio spectrum analyzer (Fig. 1). It measures the magnitude of an input audio signal versus frequency. The sound waves are converted into an electrical signal via a microphone and then sampled by the FPGA. The sampled data is used to perform a Discrete Fourier Transform (DFT), which converts a time-domain audio signal into a frequency domain. The processed data is then sent to the PC via USB and displayed on the screen with the help of a Python script.
+
+- Language: VHDL
+
+
+## [Spectrum Analyzer in VHDL](https://github.com/Dentaku1992/AudioSpectrumAnalyzerInVHDL)
+An audio spectrum analyzer written in VHDL to work on a Xilinx Zync7000 ZedBoard
+
+- Language: VHDL
+
+
+## [96 Note Music Spectrum Analyzer - FPGA](https://github.com/davemuscle/96band_msa)
+This project converts your audio into a frequency spectrum and displays it on a VGA monitor in real-time. The spectrum is mapped to all 96 half-notes in the first eight octaves, and is tuned to A4 (440 Hz). It provides a visible output of 1920x1080 pixels at 60FPS, including multiple color palette choices. There is also a choice between using an onboard microphone with auto gain control, or a line-level input output pair.
+
+- Language: VHDL
+
+## [This is FPgaOscilloscope or Field-Programmable Oscilloscope](https://github.com/zenlu/FPO)
+FPGA Oscilloscope (pure VHDL, logic/bus analyzer, DSO, VGA, DVI, PS/2 mouse, FPGA internal debug & verification)
+
+- Language: VHDL
+
+## [FPGA-based Logic Analyzer](https://github.com/aliabbasi-engr/logic-analyzer-vhdl)
+In this project, a logic analyzer is implemented on a Xilinx Spartan-6 XC6SLX9 using VHDL language. The module can read analog data from 8 different channels and show them on a 7-Segment. The measured data are also sent through the UART communication protocol to be used in other devices. As Spartan-6 does not provide analog inputs, an ADC128S102 converts analog measured data to digital for further processing by the FPGA. The RTL schematic of the module is shown in the figure below.
+
+- Language: VHDL
+
+## [VHDL-Oscilloscope](https://github.com/A75543/VHDL-Oscilloscope)
+The Simple Oscilloscope is an FPGA-based signal visualization tool using the BASYS 3 FPGA and AD7819 A/D Converter. It captures analog signals, converts them into digital data, and displays them on a VGA monitor.
+
+- Language: Verilog
+
+## [VHDL_Oscilloscope](https://github.com/RacingTornado/VHDL_Oscilloscope)
+An oscilloscope for viewing signals
+
+- Language: VHDL
+
+## [oscilloscope-vhdl](https://github.com/muhammedtarikyildiz/oscilloscope-vhdl)
+FPGA Based VHDL Oscilloscope with ADC0804
+
+- Language: VHDL
+
+## [Digital Storage Oscilloscope](https://github.com/Gripnook/digital-storage-oscilloscope)
+
+- Language: VHDL
+
+## [FPGA-Oscilloscope](https://github.com/agural/FPGA-Oscilloscope)
+This repository contains all files related to the design and creation of my FPGA Oscilloscope. The oscilloscope is based on the Altera Cyclone III EP3C40 FPGA as part of my Caltech EE 052 class project.
+
+- Language: VHDL
+
+## [Digital-Signal-Oscilloscope](https://github.com/Oguzhanka/Digital-Signal-Oscilloscope)
+Implementation of a fully-functional digital signal oscilloscope written in Verilog HDL. Tested on a DE-1 SoC 5CSEMA5F31C6 FPGA board. Uses a VGA monitor for displaying.
+
+- Language: Verilog
+
+## [fpga-osc](https://github.com/ceren-erkut/fpga-oscilloscope)
+A digital storage oscilloscope implementation of the BASYS 3 board.
+
+- Language: VHDL
+
+## [digital-oscilloscope](https://github.com/FatemehFathi/digital-oscilloscope)
+Design and implementation of a digital oscilloscope
+
+- Language: Verilog
+
+## [Digital-Oscilloscope](https://github.com/bha159/Digital-Oscilloscope)
+A simple Oscilloscope implemented using Verilog on FPGA Board.
+
+- Language: Verilog
+
+## [Digital-Oscilloscope-verilog](https://github.com/hadisfr/Digital-Oscilloscope-verilog)
+a project for Digital Logic Design Lab S96 at University of Tehran
+
+- Language: Verilog
+
+## [v.scope80](https://github.com/MParygin/v.scope80)
+Dual Channel FPGA Digital Oscilloscope on 2*ADS831 (80MHz)
+
+- Language: Verilog
+
+## [An-FPGA-Based-Oscilloscope](https://github.com/mert137/An-FPGA-Based-Oscilloscope)
+
+- Language: Verilog
+
+## [FPGA Oscilloscope](https://github.com/Hong-Ming/FPGA-Oscilloscope)
+We built a simple oscilloscope using Nexys 4 DDR board and PCB. First, the PCB transforms the input voltage signal into a signal with an acceptable voltage range for the FPGA board input, as well as generating knobs' control signal. The FPGA board then takes the processed signal and control signal to display waveforms, change voltage scale, adjust sweep time, etc. This work is the final project of the Digital Laboratory class at NCTU. 
+
+- Language: Verilog
+
+## [DigitalOscilloscope_Zynq7000Soc](https://github.com/splAcharya/DigitalOscilloscope_Zynq7000Soc)
+A digital Oscilloscope designed using Zedboard (Zynq7000Soc). The input signal is sample and processed using Zedboard and the sample data is displayed using a Graphical User Interface which mimics an Oscilloscope.
+
+- Language: unknown
+
+## [FPGA-USB-Oscilloscope](https://github.com/woodrowb96/FPGA-USB-Oscilloscope)
+The project was a two channel USB oscilloscope built using an FPGA. The FPGA was used to acquirer data and send that to the computer over USB to be proccessed and displayed on a GUI.
+
+- Language: Verilog
+
+## [Design of a quadcopter controller in VHDL](https://github.com/Dentaku1992/QuadcopterFPGA)
+In this project, a quad copter flight controller was designed in 'pure' hardware making use of a FPGA (Mojo development board). A PID control unit was used in order to provide stabilization around the three axes of movement of the quad copter. Due to the limited resources that are available on the FPGA (Spartan 6 SLX9), different approaches are used to fit the PID controllers into the FPGA. It was investigated whether there can be made use of the high-speed DSP48 slices available in the Spartan 6 or the Xilinx IP Core multiplier. In order to achieve a minimal resource design, the different channels of the FPGA were multiplexed.
+
+- Language: VHDL
+
+## [Spectrum Analyzer in VHDL](https://github.com/Dentaku1992/AudioSpectrumAnalyzerInVHDL)
+The audio spectrum analyzer takes a stereo audio as input than calculates the spectrum trough a fast Fourrier transform (FFT). This spectrum is than shown on a HDMI or VGA compatible screen.
+
+- Language: VHDL
+
+
+## [Camera Journey Nonrelease - FPGA](https://github.com/davemuscle/camera_journey)
+Various lessons learned while designing an OV5640 camera display in VHDL/Embedded Linux on a Cyclone V SOC board
+
+- Language: VHDL
+
+## [Mandlebrot Fractal Engine - FPGA](https://github.com/davemuscle/fpga_mandlebrot_fractal)
+Mandlebrot fractal engine and native HDMI video pipeline designed in VHDL with a focus on timing analysis and resource utilization
+
+- Language: VHDL
+
+## [OpenDRAM: A Modular, High-performance Soft Memory Controller for DDR4 DRAM](https://github.com/FanosResearch/OpenDRAM)
+This repository contains source files related to the proposed memory controller.
+
+- Language: Verilog
+
+
+## [LiteX Build Environment](https://github.com/timvideos/HDMI2USB-litex-firmware)
+The LiteX Build Environment is a tool for easily developing LiteX based systems. It was originally designed to make the TimVideos' HDMI2USB easy to develop, but has now expanded to support multiple projects.
+
+- Language: VHDL
+
+## [Image Processor](https://github.com/Gripnook/image-processor)
+Image processing module designed for ECSE-487 Computer Architecture Lab.
+
+- Language: VHDL
+
+## [SDR DDC receiver buided on Nexys 2 FPGA board](https://github.com/MParygin/v.sdr80)
+SDR receiver on FPGA Spartan 3e500 (40MHz bandwidth, 16 bit depth)
+
+- Language: Verilog
+
+## [v.dalsa](https://github.com/MParygin/v.dalsa)
+Photocamera with DALSA CCD and FPGA Spartan 3
+
+- Language: Verilog
+
+## [v.xapp495_out](https://github.com/MParygin/v.xapp495_out)
+XAPP495 proof concept TMDS out 1920 * 1080 * 60 Hz
+
+- Language: Verilog
+
+
+## [Implemented 8-bit Huffman coding algorithm using SystemVerilog.](https://github.com/Hong-Ming/Huffman-Codeing-IC)
+Implemented 8-bit Huffman coding algorithm using System Verilog. The system takes an image as an input, the image contains 100 pixels and each pixel value is an integer between 1 to 6 (inclusive). The system then outputs the Huffman Code for each pixel value based on the source probability distribution (more frequent pixel values will have the shorter codewords). This is the final project of the Digital Circuit and Systems class in NCTU.
+
+- Language: Verilog
+
+
+
+
+## [ModulacionMultiportadoraFPGA](https://github.com/JhoCam007/ModulacionMultiportadoraFPGA)
+Implementación de un sistema de transmisión multiportadora sobre una plataforma FPGA
+
+- Language: VHDL
+
+
+## [3G-SDI 10bit YUV422 to RGB88](https://github.com/Elrori/YUV422-10bit-to-RGB888)
+YUV422-10bit-to-RGB888
+
+- Language: Verilog
+
+
+
+
+
+## [SPWM](https://github.com/dominic-meads/SPWM-FPGA)
+This is an SPWM signal that I have used to drive an H bridge to create an inverter.
+
+- Language: Verilog
+
+## [ECG](https://github.com/dominic-meads/ECG)
+QRS detection signal processing algorithm on an FPGA
+
+- Language: Verilog
+
+
+## [FOC-FPGA-HB](https://github.com/oscarhbj/FOC-FPGA-HB)
+Scalable Multi-Axis FOC on FPGA for Permanent Magnet Synchronous Motors
+
+- Language: VHDL
+
+
+## [FPGA_BLDC_FOC](https://github.com/xn--nding-jua/FPGA_BLDC_FOC)
+This repository contains a field-oriented control (FOC) for a 6-phase BLDC-motor. It runs on an Altera Cyclone III FPGA (EP3C40F484C6) using Quartus 13.1. Newer versions of Quartus do not support the Cyclone III, but the VHDL-logic can be ported to newer models like the Cyclone 10LP without problems as it does not use any specific functions of the Cyclone III.
+
+- Language: VHDL
+
+## [Affordable Manipulator With FPGA-driven FOC](https://github.com/fontysrobotics/ARMinor-2020-Maniputaltor-with-FOC-and-FPGA)
+The developed solution for designing an affordable manipulator to be used for teaching proposes where students get to use an FPGA and they can implement FOC for the motors.
+
+- Language: VHDL
+
+## [FPGA_PID](https://github.com/PFE-SEM-PID/FPGA_PID)
+VHDL code for a PID motor controller (with VNH7070 H bridge)
+
+- Language: VHDL
+
+
+## [PID Controller in Verilog for FPGA and ASIC Applications](https://github.com/roboticvedant/Verilog-PID-Controller)
+This repository houses a PID (Proportional-Integral-Derivative) controller, implemented in Verilog, suitable for FPGA and ASIC applications. PID controllers are pivotal in control theory, and they are used in myriad applications, including those that are time-sensitive. The project aims to serve as a basis for sophisticated control systems where fine-grained control and real-time operation are essential.
+
+- Language: Verilog
+
+## [Digital PID Controller implemented on Xilinx Artix-7](https://github.com/hkhajanchi/fpga-pid)
+Verilog Modules for a Digital PI Controller implemented on a Digilent NEXYS 4-DDR FPGA
+
+- Language: Verilog
+
+## [PID Controller in Verilog](https://github.com/5iri/pid-in-verilog)
+This repository contains a complete implementation of a digital PID (Proportional-Integral-Derivative) controller in Verilog, featuring both a basic PID module and a practical line-following robot simulation.
+
+- Language: Verilog
+
+## [FPGA-Based PID Motor Controller](https://github.com/RT216/fpga-pid_motor)
+FPGA-based PID controller for precise speed regulation of four DC motors in robot car applications.
+
+- Language: Verilog
+
+## [PID_Controller](https://github.com/MicroSnail/PID_Controller)
+Here you will find Verilog and C source code for a PID controller implemented on a Red Pitaya board.
+
+- Language: VHDL
+
+## [FPGA_MotorControl](https://github.com/jimmyma8579/FPGA_MotorControl)
+Designed a PID controller with FPGA hardware to implement position control on a servo motor.
+
+- Language: Verilog
+
+## [PID-FPGA](https://github.com/hakan-demirli/PID-FPGA)
+PID controller on an FPGA with custom RS232 addressing protocol.
+
+- Language: Verilog
+
+## [FPGA Temperature Controller](https://github.com/paquettedavid/FPGATemperaturePIDController)
+PID control of a DC fan for regulating FPGA processor temperature, in VHDL. with custom RS232 addressing protocol.
+
+- Language: Verilog
+
+## [PID Controller using FPGA](https://github.com/deepc94/pid-fpga-vhdl)
+Proportional-Integral-Derivative controllers are universal control structures and have been widely used in Automation systems, they are usually implemented either in hardware using Analog components or in software using Computer-based systems. The purpose of this project is to implement PID controllers on Field Programmable Gate Arrays (FPGAs) which improve speed, accuracy, power, compactness, and cost effectiveness over other digital implementation techniques. Finally, the PID controller can be used for applications such as DC motor speed control or Temperature controller.
+
+- Language: VHDL
+
+## [kalman_mppt](https://github.com/diecaptain/kalman_mppt)
+mppt algorithm using kalman filter in VHDL
+
+- Language: VHDL
+
+## [FPGA Kalman Filter](https://github.com/jlmayorgaco/fpga-kalman-filter)
+This project aims to explore and compare different Kalman filter architectures and their performance on FPGA platforms. The focus is on two main applications: IMU sensor fusion for quadcopters and prediction in power electronics for microgrid renewable energy systems.
+
+- Language: VHDL
+
+
+## [Kalman_Fpga](https://github.com/samsamfire/Kalman_Fpga)
+Fixed Point Kalman filter for fpga
+
+- Language: Verilog
+
+## [Kalman-Filter-Xilinx](https://github.com/Kevin-Heyer/Kalman-Filter-Xilinx)
+Implementing a Kalman filter on a FPGA using matrix math and floating points. Floating points and matrix math are all planned to be done from scratch.
+
+- Language: Verilog
+
+## [Kalman-Filter-verilog](https://github.com/abhishekgb/Kalman-Filter-verilog)
+implementation the Kalman filter for MPPT for solar PV module
+
+- Language: VHDL
+
+
+## [Hough](https://github.com/ashleyjr/Hough)
+Hough transform experiment
+
+- Language: Verilog
+
+
+## [Frequence Inverter FPGA](https://github.com/vinimyls/Frequence_Inverter_FPGA)
+Frequence Inverter FPGA
+
+- Language: VHDL
+
+
+## [Ultrasound-Beamforming](https://github.com/abhishekgb/Ultrasound-Beamforming-)
+This project is basically ultrasound Beamformer prototype and FPGA is used to control all the modules of the Hardware.
+
+- Language: VHDL
+
+
+
+## [AHB BUS PROTOCOL IMPLEMENTATION IN VERILOG](https://github.com/vicharak-in/vaaman-ahb-verilog)
+This repository hosts a Verilog implementation of the Advanced High-performance Bus (AHB) protocol.
+
+- Language: Verilog
+
+## [ml-ahb-gen](https://github.com/rbarzic/ml-ahb-gen)
+A Verilog AMBA AHB Multilayer interconnect generator
+
+- Language: Verilog
+
+
+## [FreeAHB](https://github.com/kamat900/FreeAHB)
+This repository currently provides an AHB 2.0 Master. Icarus Verilog 10.0 or higher is required to simulate the design.
+
+- Language: Verilog
+
+
+## [AHB-Protocol-SystemVerilog](https://github.com/Ambika14-3/AHB-Protocol-SystemVerilog)
+Design and Implementation of AHB Protocol in SystemVerilog -
+
+- Language: Verilog
+
+## [SystemVerilog description of AMBA](https://github.com/tom-urkin/AMBA)
+AHB-lite, AHB-APB bridge and extended APB side architecture in SystemVerilog
+
+- Language: SystemVerilog
+
+## [Lecture Material on AMBA AXI/AHB/APB](https://github.com/adki/AMBA_AXI_AHB_APB)
+AMBA bus lecture material
+
+- Language: Verilog
+
+## [AHB-TO-TILELINK](https://github.com/antmicro/ahb-tl-bridge)
+This project contains SystemVerilog code for the AHB to TileLink UL (Uncached Lightweight) bridge.
+
+- Language: Verilog
+
+## [Generic AHB slave stub](https://github.com/freecores/ahb_slave)
+Generic AHB slave stub
+
+- Language: Verilog
+
+## [Generic AHB master stub](https://github.com/freecores/ahb_master)
+Generic AHB master stub
+
+- Language: Verilog
+
+## [AMBA AHBv3 Lite Bus multi-slave / single master](https://github.com/aignacio/ahb_lite_bus)
+This repository contains all resources to instantiate an AHB Bus Lite version 3 with a single master and multiple slaves (memory mapped). The slave selector of HSEL it's defined by a memory map with the start/end address of each slave in the bus. All the modules are able to pass parameters so you'll be able to change as your needs. 
+
+- Language: Verilog
+
+
+## [AMBA AHB-to-APB Bridge Design](https://github.com/SUHANI102003/AMBA_AHB2APB_BRIDGE_DESIGN)
+This repository contains the source code and results for AMBA AHB to APB Bridge design performing single read, single write and burst write transfers. The design is coded in Verilog, using Modelsim simulator and synthesized using Quartus Prime software.
+
+- Language: Verilog
+
+
+## [simple-AXI2AHB-bridge](https://github.com/KasuganoSoraaa/simple-AXI2AHB-bridge)
+AXI master to AHB slave, support INCR/WRAP, out of standing, do not advanced feature such as support out of order, retry, split, etc
+
+- Language: Verilog
+
+
+
+
+## [AHB-Lite Platform-Level Interrupt Controller (PLIC)](https://github.com/RoaLogic/plic)
+Fully Parameterized & Programmable Platform Level Interrupt Controller (PLIC) for RISC-V based Processor Systems supporting a user-defined number of interrupt sources and targets, and featuring a single AHB-Lite Slave interface
+
+- Language: Verilog
+
+
+
+## [Round Robin Arbiter](https://github.com/tom-urkin/Round-Robin)
+This repository contains a SystemVerilog implementation of a parametrized Round Robin arbiter with three instantiation options
+
+- Language: Verilog
+
+
+## [DLB: Deep Learning Blocks](https://github.com/adki/Deep_Learning_Blocks)
+DLB (Deep Learning Blocks) as a part of DPU (Deep Learning Processing Unit) is a collection of synthesizable Verilog modules for deep learning inference network.
+
+- Language: Verilog
+
+## [Hamming-ECC](https://github.com/RoaLogic/Hamming-ECC)
+Hamming Codes are linear error correcting codes invented in 1950 by Richard Hamming. By adding a parity check matrix they can correct 1-bit errors and detect 2-bit errors. The provided IP is fully parameterised and implements the Hamming encoder and decoder, either fully asynchronous or with a clock and clock-enable input. An additional wrapper that makes the code equivalent to the Altera altecc encoder and decoder IPs is also provided.
+
+- Language: Verilog
+
+
+
+## [AXI DMA](https://github.com/aignacio/axi_dma)
+General Purpose AXI Direct Memory Access
+
+- Language: Verilog
+
+
+
+## [DMA](https://github.com/muhammedkamal/DMA-)
+DMA Project using Verilog HDL
+
+- Language: Verilog
+
+
+## [DMA_AXI](https://github.com/freecores/dma_axi)
+AXI DMA 32 / 64 bits
+
+- Language: Verilog
+
+## [AHA DMA](https://github.com/gednyengs/dma)
+Open-Source AXI4 DMA Engine in SystemVerilog and Chisel
+
+- Language: Verilog
+
+## [fwperiph-dma](https://github.com/featherweight-ip/fwperiph-dma/tree/main)
+Provides a simple peripheral-capable DMA engine
+
+- Language: Verilog
+
+
+## [Zedboard DMA Demo](https://github.com/Digilent/Zedboard-DMA)
+This project demonstrates how to use the Zedboard's Audio Codec and RAM to record samples of audio and play them back. Vivado is used to build the demo's hardware platform, and Xilinx SDK is used to program the bitstream onto the board and to build and deploy a C application.
+
+- Language: VHDL
+
+## [Nexys Video DMA Demo](https://github.com/Digilent/Nexys-Video-DMA)
+This project demonstrates how to use the Nexys Video's Audio Codec and RAM to record samples of audio and play them back. Vivado is used to build the demo's hardware platform, and Xilinx SDK is used to program the bitstream onto the board and to build and deploy a C application.
+
+- Language: VHDL
+
+
+
+
+## [Partial Reconfiguration Controller for Xilinx FPGAs](https://github.com/warclab/prcontrol)
+Partial Reconfiguration Controller for Xilinx FPGAs
+
+- Language: Verilog
+
+
+
+## [All-Digital Phase-Locked Loop (ADPLL)](https://github.com/anlit75/ADPLL)
+All Digital Phase-Locked Loop (ADPLL)
+
+- Language: Verilog
+
+
+## [Fractional PLL](https://github.com/adithi-su/fractional-phase-locked-loop)
+Project title: 2.4 GHz Delta Sigma based Fractional Phase Locked Loop for Wireless Communication Applications
+
+- Language: Verilog
+
+
+## [PLL](https://github.com/ZipCPU/dpll)
+A collection of phase locked loop (PLL) related projects
+
+- Language: Verilog
+
+
+
+## [Isle FPGA Computer](https://github.com/projf/isle)
+Welcome to Isle. Isle is a simple, modern computer — an open design that encourages tinkering, experimentation, and doing your own thing.
+
+- Language: Verilog
+
+
+
+## [MutMult - Matrix Multiplication in VHDL](https://github.com/vangvassalos/MatMult_VHDL)
+Matrix Multiplication in VHDL
+
+- Language: VHDL
+
+## [Matrix multiplication with FPGA in VHDL](https://github.com/fbv81bp/Matrix_multiplier)
+A tricky pipeline of a matrix multiplier with 3 BRAMs 4 DSPs, calculating in 4 threads.
+
+- Language: VHDL
+
+
+## [Matrix Multiplication in VHDL](https://github.com/ojhstill/Matrix_Multiplication_VHDL)
+Matrix Multiplication Circuit Design in VHDL - ElecEng Year 2
+
+- Language: VHDL
+
+## [Electronics Systems Project - VHDL Matrix Multiplier](https://github.com/LucT3/VHDL-Matrix-Multiplier)
+Design the VHDL description of a matrix multiplier
+
+- Language: VHDL
+
+## [Matrix Multiply](https://github.com/djmmoss/matrix_multiply)
+Matrix Multiply in VHDL
+
+- Language: VHDL
+
+
+## [matrix-multiplier](https://github.com/jgaztelu/matrix-multiplier)
+A matrix multiplier implementation in VHDL
+
+- Language: VHDL
+
+## [Custom Matrix Multiplier IP (3x3, 6-bit)](https://github.com/Danial-Changez/Matrix-Multiplier-AXI4-IP)
+An AXI4-Lite peripheral for the Zynq 7000 processor, allowing you to communicate with the embedded system and run matrix multiplication.
+
+- Language: VHDL
+
+
+## [Systolic-Array-Matrix-Multiplication](https://github.com/mvgprasanth/Systolic-Array-Matrix-Multiplication)
+Implementation of weight stationary systolic array which has a size of 4x4(scalable) to 256X256.
+
+- Language: Verilog
+
+## [Systiolic-Matrix-multiplier](https://github.com/Debug-xmh/Systiolic-Matrix-multiplier)
+Universal matrix multiplier, an improvement on the design of Systiolic Matrix multiplier in verilog.
+
+- Language: Verilog
+
+
+
+
+
+
+
+
+
+
+
+
+
+

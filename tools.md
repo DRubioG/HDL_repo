@@ -54,3 +54,19 @@ GEM is an open-source RTL logic simulator with CUDA acceleration, developed and 
 ## [pyVHDLModel](https://github.com/VHDL/pyVHDLModel)
 An abstract VHDL language model written in Python.
 
+## [fpgacapZero](https://github.com/lcapossio/fpgacapZero)
+Open-source, vendor-agnostic FPGA debug cores: an Embedded Logic Analyzer (ELA) for waveform capture, an Embedded I/O (EIO) for runtime read/write of fabric signals, a JTAG-to-AXI4 Bridge (EJTAG-AXI) for memory-mapped bus access, and a JTAG-to-UART Bridge (EJTAG-UART) for console-style debug — all over JTAG. Drop them into any FPGA design and export captures to JSON, CSV, or VCD.
+
+## [fpgaZeroMCP](https://github.com/lcapossio/fpgaZeroMCP)
+An open-source Model Context Protocol server that gives AI assistants a complete FPGA toolchain — lint, simulate, synthesize, place-and-route, and a live IP core registry backed by GitHub.
+
+## [Cocotbext for mil-std-1553](https://github.com/johnathan-convertino-afrl/cocotbext-mil_std_1553)
+cocotb extension for mil-std-1553 communications
+
+## [MyHDL](https://github.com/myhdl/myhdl)
+MyHDL is a free, open-source package for using Python as a hardware description and verification language.
+
+
+## [pyVhdl2Sch](https://github.com/LaurentCabaret/pyVhdl2Sch)
+pyVhdl2Sch is a documentation generator tool. It takes a VHDL file (.vhd) as an entry and generates a corresponding pdf/svg/ps/png schematic.
+
