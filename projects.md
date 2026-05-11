@@ -592,7 +592,10 @@ High throughput JPEG decoder in Verilog for FPGA
 
 - Language: Verilog
 
+### [Video compression systems](https://github.com/freecores/video_systems)
+Video compression systems
 
+- Language: Verilog, VHDL
 
 
 ### [Core JPEG decoder](https://github.com/ultraembedded/core_jpeg_decoder)
@@ -621,10 +624,13 @@ An implementation of DisplayPort protocol for FPGAs
 
 - Language: VHDL
 
-### [FPGA WebServer](https://github.com/hamsternz/FPGA_Webserver)
-A work-in-progress for what is to be a software-free web server for static content.
 
-- Language: VHDL
+
+### [Video-Stream-Scaler](https://github.com/ICscholar/Video-Stream-Scaler)
+Video and streaming media, as the most intuitive forms of information transmission, have always been at the forefront of information technology development. With the development of VR and other technologies, how to efficiently and high-definition transmit video files has become an urgent problem to be solved. Based on the platform provided by Yilingsi, Vedio Stream Scaler and its accompanying GUI interface, a technology implementation that provides high-performance and excellent experience. In this project, if the user needs to zoom in on video streaming, they will zoom in to full screen (1920 * 1080) according to the user's selected area; If the user needs to reduce the video streaming size, the full screen (1920 * 1080) will be reduced to the specified resolution based on the size selected by the user.
+
+- Language: Verilog
+
 
 ### [HMDI processing](https://github.com/hamsternz/Artix-7-HDMI-processing)
 Receiving and processing 1080p HDMI audio and video on the Artix 7 FPGA
@@ -687,6 +693,14 @@ EV_JPEG_ENC core is intended to encode raw bitmap images into JPEG compliant cod
 - Language: VHDL
 
 
+### [A Voila-Jones face detector hardware implementation](https://github.com/lulinchen/face_detect_open)
+This project attempts to realize a face detector using Voila-Jones algorithm. The reference C model is borrowed from 5kk73 GPU Assignment 2012, with some modify to fit hardware implementation and fixed some bug.
+
+- Language: Verilog
+
+
+
+
 ### [ImageAlgorithmAccelerationByHLS](https://github.com/maxs-well/ImageAlgorithmAccelerationByHLS)
 Use HLS to accelerate image algorithms
 
@@ -696,6 +710,12 @@ Use HLS to accelerate image algorithms
 An FPGA-based PNG image decoder, which can extract original pixels from PNG files.
 
 - Language: Verilog
+
+### [Implementation of SGBM in opencv](https://github.com/tishi43/sgbm)
+implementation of opencv sgbm(disparity map extract) on FPGA
+
+- Language: Verilog
+
 
 ### [mjpegZero — FPGA Hardware Motion JPEG Encoder](https://github.com/lcapossio/mjpegZero)
 Open source synthesizable MJPEG encoder written in behavioral Verilog 2001 with AXI interfaces, up to 1080p30 on low end AMD/Xilinx 7-Series FPGAs. Two operating modes: Full encodes with runtime quality control; Lite encodes with ~47% smaller LUT footprint and fixed synthesis-time quality.
@@ -1907,8 +1927,13 @@ This project involves the implementation of Hamming Code in Verilog. The project
 - Language: Verilog
 
 
+### [FPGA WebServer](https://github.com/hamsternz/FPGA_Webserver)
+A work-in-progress for what is to be a software-free web server for static content.
+
+- Language: VHDL
 
 
+### [FPGA CryptoNight V7 Minner](https://github.com/lulinchen/FPGA_CryptoNight_V7)
+This is a project done in 2018, to mine Menoro using FPGA. The performance is not more profitable than GPU. And Monero updated CryptoNight algorithm to V8 which is hard to implement using hardware. So I decide to opensource this project , it can mine other coins still using CryptoNight V7.
 
-
-
+- Language: Verilog

@@ -15,6 +15,7 @@ These are the FW modules repository.
 - [Ethernet](#ethernet)
 - [Floating points](#floating-point)
 - [SpaceWire](#spacewire)
+- [SpaceFibre](#spacefibre)
 - [MIL-STD-1553](#mil-std-1553)
 - [GMII](#gmii)
 - [RoCEv2](#rocev2)
@@ -963,8 +964,84 @@ implement PCIE devices using C or VHDL and test them against a QEMU virtualized 
 - Language: VHDL
 
 
+## H.264/H.265/HVEC
+
+### [Osen Logic OSD10](https://github.com/ICscholar/H264_decoder-verilog-Cpp)
+External logic receive h.264 NAL stream from FIFO, which is external memory, and decodes it as YUV4:2:0,then store it into the external memory OsenLogic OSD10 includes stream parser(extensions and CAVLC),IDCT/Iquant(residual),internal predictor and deblocking filters parser can work without CPU, which means PL-end can do all the work
+
+- Language: Verilog
+
+### [H.264 Video Encoder IP Core](https://github.com/openasic-org/xk264)
+xk264：AVC/H.264 Video Encoder IP Core (RTL)
+
+- Language: Verilog
+
+### [H.264 Encoder](https://github.com/hamza-akhtar-dev/h264encoder)
+H.264 Encoder
+
+- Language: Verilog
+
+### [Power-optimized Exponential Golomb Decoder for H.264 Video Decoding](https://github.com/SCOUT-ELITE/H.264_Decoder)
+Introducing an innovative H.264 decoder project with QCIF resolution, designed to enhance video playback performance. This open-source GitHub repository offers a robust solution for decoding H.264 video streams, enabling seamless playback on various platforms.
+
+- Language: Verilog
+
+### [NoC264](https://github.com/bargei/NoC264)
+NoC based h.264 decoder for FPGA
+
+- Language: Verilog
+
+### [Bluespec H.264 Decoder](https://github.com/freecores/bluespec-h264)
+Bluespec H.264 Decoder
+
+- Language: Verilog
+
+### [H264](https://github.com/aiminickwong/H264)
+H264
+
+- Language: Verilog
+
+### [hardh264](https://github.com/bcattle/hardh264)
+A hardware h264 video encoder written in VHDL. Designed to be synthesized into an FPGA. Initial testing is using Xilinx tools and FPGAs but it is not specific to Xilinx.
+
+- Language: VHDL
 
 
+### [H.265 Video Encoder IP Core](https://github.com/openasic-org/xk265)
+xk265：HEVC/H.265 Video Encoder IP Core (RTL)
+
+- Language: Verilog
+
+### [H.265 Video Encoder Core](https://github.com/Bearzeng/h.265_encoder)
+A RTL H.265 encoder core written in Verilog. 
+
+- Language: Verilog
+
+### [h265_decoder](https://github.com/tishi43/h265_decoder)
+H265 decoder write in verilog, verified on Xilinx ZYNQ7035
+
+- Language: Verilog
+
+### [H265_Inverse_Integer_Transform](https://github.com/transformvid/H265_Inverse_Integer_Transform)
+H265_Inverse_Integer_Transform
+
+- Language: VHDL
+
+### [uvgKvazaarHW](https://github.com/ultravideo/uvgKvazaarHW)
+Contains the submodules, IP-XACT files, mock RTL files, SystemC driver, Makefile for Verilator, and patch file for Kvazaar submodule Enables end-to-end HEVC encoding with HW HEVC simulation in the loop.
+
+- Language: Verilog
+
+
+### [ABR Video Transcode (UG1311)](https://github.com/Xilinx/ABR-video-transcode)
+ABR stands for adaptive bit rate streaming. It is a protocol for video streaming over HTTP where the source content is encoded at multiple bit rates and resolutions. This document describes the Xilinx video transcoding system that can accelerate ABR transcoding from H.264 to HEVC, or from H.264 to VP9. The system supports live video input streams of up to 1920x1080 at 60 frames per second.
+
+- unknown
+
+### [HEVC](https://github.com/joe122139/HEVC)
+HEVC Codec
+
+- Language: Verilog
 
 
 
@@ -1022,6 +1099,23 @@ Fully functional SpaceWire router. Implemented in VHDL and under continuous deve
 Standalone IP with ARM-AMBA/AXI capable device. Enables sending and receiving data via SpaceWire protocol. Tested on Xilinx FPGA (ZYNQ).
 
 - Language: VHDL
+
+
+## SpaceFibre
+
+### [SpaceFibre Light IP Core](https://github.com/CNES/spacefibrelight)
+This repository includes de IP called Spacefibrelight
+
+- Language: Verilog
+
+
+
+
+
+
+
+
+
 
 
 
