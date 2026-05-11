@@ -326,6 +326,13 @@ Sythesizable, modular Verilog implementation of 802.11 OFDM decoder.
 
 - Language: Verilog
 
+
+### [](https://github.com/Tobias-DG3YEV/openofdm)
+Sythesizable, modular Verilog implementation of 802.11 OFDM decoder optimized for meta data generation.
+
+- Language: VHDL
+
+
 ### [802.11a](https://github.com/sadrasabouri/802.11a)
 Software-Hardware Implementation of IEEE 802.11a Wifi Standard
 
@@ -476,9 +483,102 @@ Reference RTL implementation of a stereo gain stage, showcasing fixed-point DSP 
 
 
 
+### [SDR DDC receiver buided on Nexys 2 FPGA board](https://github.com/MParygin/v.sdr80)
+SDR receiver on FPGA Spartan 3e500 (40MHz bandwidth, 16 bit depth)
+
+- Language: Verilog
 
 
 
+### [RFSoC QPSK Transceiver](https://github.com/strath-sdr/rfsoc_qpsk)
+PYNQ example of using the RFSoC as a QPSK transceiver.
+
+- Language: VHDL
+
+
+
+### [DVB FPGA](https://github.com/OpenResearchInstitute/dvb_fpga)
+RTL implementation of components for DVB-S2
+
+- Language: VHDL
+
+### [VHDL Power Detector](https://github.com/OpenResearchInstitute/power_detector)
+A versatile VHDL implementation of a power detector supporting both IQ (complex) and real signal processing with configurable dual-stage exponential moving average filtering.
+
+- Language: VHDL
+
+
+### [Theseus Cores](https://github.com/theseus-cores/theseus-cores)
+Open source FPGA cores for digital signal processing (push mirror from gitlab.com/theseus-cores/theseus-cores)
+
+- Language: Verilog
+
+
+### [Ettus Research USRP FPGA HDL Source](https://github.com/EttusResearch/fpga)
+Welcome to the USRP FPGA HDL source code tree! This repository contains free & open-source FPGA HDL for the Universal Software Radio Peripheral (USRP™) SDR platform, created and sold by Ettus Research. A large percentage of the source code is written in Verilog.
+
+- Language: Verilog
+
+### [QPSK-generator](https://github.com/werkgroep-kunstmanen/QPSK-generator)
+I/Q generator for Metop, Aqua and NOAA20
+
+- Language: VHDL
+
+### [This is a Xilinx_FPGA _Spartan6 project for modulation 2ASK QPSK ADC DAC ROM SCI](https://github.com/Peefy/modulation_2ASK_QPSK)
+This is a Xilinx_FPGA _Spartan6 project for modulation 2ASK QPSK ADC DAC ROM SCI
+
+- Language: Verilog
+
+### [BPSK_ASIC](https://github.com/vlsi1217/BPSK_ASIC)
+BPSK demodulator ASIC design with Toshiba 45nm lib in verilog for EE 287 Spring 2013
+
+- Language: Verilog
+
+### [DRFM: Digital Radio Frequency Memory](https://github.com/mesarcik/DRFM)
+Digital Radio Frequency Memory (DRFM) is a technique used to record an incoming Radio Frequency (RF) signal, in turn applying a series of time-delays, amplitude scalings and frequency shifts and retransmitting the signal. This technique is used widely in the electronic defense industry as a form of radar jamming, in that it allows for the synthesis of artificial targets. This project is a design and implementation of a DRFM system on a low cost FPGA system.
+
+- Language: Verilog
+
+### [Myriad-RF Hardware](https://github.com/myriadrf/reference-development-kit)
+This repository contains the Myriad-RF reference hardware designs for Lime Microsystem's LMS6002D and LMS7002M transceivers, plus LMS8001 up/down converter, in PDF and KiCad formats, along with the associated firmware.
+
+- Language: VHDL
+
+### [GNSS-VHDL](https://github.com/danipascual/GNSS-VHDL)
+VHDL codes to generate GPS L1 C/A and Galileo E1OS and E5 PRNs and dataless signals. Secondary codes not included.
+
+- Language: VHDL
+
+### [iqmod](https://github.com/jackcarrozzo/iqmod)
+Verilog IQ modulation and local osc synthesis
+
+- Language: Verilog
+
+### [syncIQDemodulator](https://github.com/mattgebert/syncIQDemodulator)
+Verilog HDL for a Synchronous IQ Demodulator to be used in physics labs with cold atoms for magnetometry purposes.
+
+- Language: VHDL
+
+
+### [FSK Modulator](https://github.com/mehrdadh/fsk-modulator)
+FSK modulator implementation Lattice ECP5 FPGA to interface with AT86RF215 I/Q Radio
+
+- Language: Verilog
+
+### [simple-FSK](https://github.com/mcupro/simple-FSK)
+A simple FSK modulation and demodulation in verilog. Tested in Zedboard+FMCOMMS3
+
+- Language: Verilog
+
+### [NCO - Numerically Controlled Oscillator in VHDL](https://github.com/portela/NCO)
+A Numerically Controlled Oscillator (NCO) is a digital signal processing component used to generate periodic waveforms, typically sine or cosine waves, with precise control over frequency and phase. It is commonly used in communication systems, such as modulators and demodulators, signal synthesis, and software-defined radios, where accurate frequency generation and signal processing are critical.
+
+- Language: VHDL
+
+### [FPGA_CDR_core](https://github.com/FilMarini/FPGA_CDR_core)
+FPGA implementation of a CDR targeting a Xilinx Kintex-7 for data rates up to 250 MHz
+
+- Language: VHDL
 
 
 
@@ -634,6 +734,10 @@ YUV422-10bit-to-RGB888
 
 - Language: Verilog
 
+### [USB C industrial camera with Interchangeable C mount Lens, Interchangeable MIPI Sensor with Lattice Crosslink NX FPGA Cypress FX3 USB 3.0 controller](https://github.com/circuitvalley/USB_C_Industrial_Camera_FPGA_USB3)
+MPI CSI receiver ISP has No virtual restriction on supported frame rate or resolution. Tested more than 4K with IMX477 4056x3040. Can do 8K with around 30FPS or even higher than that as long as FPGA is fast enough for needed frame rate and FPGA/Board has enough memory to be able to store minimum 4 Line worth of pixels. Output Clock is independent of MIPI clock. Easily Portable code to Xilinx or any other FPGA, No Vendor specific components has been used except for the PHY itself which can be replaced by other vendor's DDR phy and Embedded Block RAM. Only Debayer/Demosaic and Output reformatter need Block RAM. Block ram can also be replaced vendor's RAM. Auto detection of RAW pixel width supporting different camera sensors and sensor modes without FPGA reconfiguration.
+
+- Language: Verilog
 
 
 ### [Nexys Video DMA Demo](https://github.com/Digilent/Nexys-Video-DMA)
@@ -1263,15 +1367,16 @@ DDR3 Controller v1.65, 16 read/write ports, configurable widths, priority, auto-
 
 - Language: Verilog
 
+### [ddr3-controller](https://github.com/someone755/ddr3-controller)
+A DDR3(L) PHY and controller, written in Verilog, for Xilinx 7-Series FPGAs.
+
+- Language: Verilog
+
+
 ### [Reed Solomon Codes](https://github.com/lauchinyuan/reed_solomon_codes)
 Reed Solomon encoder written in verilog hardware description language
 
 - Language: Verilog
-
-### [RFSoC QPSK Transceiver](https://github.com/strath-sdr/rfsoc_qpsk)
-PYNQ example of using the RFSoC as a QPSK transceiver.
-
-- Language: VHDL
 
 ### [VLink: Virtual Link Design in VHDL](https://github.com/provoostkris/vlink)
 VLink is a modular VHDL framework for simulating digital communication links. It models a full transmitter–channel–receiver chain, including modulation, scrambling, coding, error insertion, signal processing and more. Ideal for educational use, prototyping, or introduction to communication principles.
@@ -1571,19 +1676,18 @@ This repository contains source files related to the proposed memory controller.
 
 
 
-### [SDR DDC receiver buided on Nexys 2 FPGA board](https://github.com/MParygin/v.sdr80)
-SDR receiver on FPGA Spartan 3e500 (40MHz bandwidth, 16 bit depth)
+
+
+
+### [S-Link](https://github.com/waviousllc/wav-slink-hw)
+S-Link is a simple, scalable, and flexible link controller protocol geared towards chiplets and chip-to-chip communication. S-Link defines the link layer, and gives freedom for various application and physical layers. The ultimate goal of S-Link is to provide a simple alternative for chiplet communication compared to other protocols.
 
 - Language: Verilog
 
+### [https://github.com/cliffordwolf/PonyLink](https://github.com/cliffordwolf/PonyLink)
+PonyLink is a bi-directional chip-to-chip interface that is using only a single signal wire between the two chips. Naturally this wire is used in a half-duplex fashion. For faster link speeds the use of a LVDS pair is recommended. The cores are tested on Xilinx Series 7 and Lattice iCE40 FPGAs.
 
-
-
-
-
-
-
-
+- Language: Verilog
 
 
 
@@ -1797,10 +1901,10 @@ Universal matrix multiplier, an improvement on the design of Systiolic Matrix mu
 
 
 
+### [Hamming Code Project](https://github.com/iamsainaresh/Hamming_Code_Using_Verilog)
+This project involves the implementation of Hamming Code in Verilog. The project includes three main components: a Hamming Code Generator/Encoder, a Hamming Code Decoder, and a Hamming Code Correction module. Each component is tested using corresponding testbenches. The Parity is either or Odd/Even is defined by the input we gave (i.e., parity_type = 1 for Odd, parity_type = 0 for Even) .
 
-
-
-
+- Language: Verilog
 
 
 

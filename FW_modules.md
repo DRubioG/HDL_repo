@@ -610,6 +610,12 @@ CORDIC Unit designed in Verilog HDL. Completely reconfigurable with the number o
 
 - Language: Verilog
 
+### [CORDIC_IP_Tutorial](https://github.com/FPGAPS/CORDIC_IP_Tutorial)
+CORDIC IP Tutorial: Creating NCO for Sine and Cosine Generation in Vivado
+
+- Language: VHDL
+
+
 
 ## MAC
 
