@@ -1,3 +1,4 @@
+# IP blocks
 
 
 ## [Xilinx Aurora Code](https://github.com/DRubioG/Xilinx_Aurora)
@@ -41,13 +42,13 @@ AXI-Stream JPEG Decoder
 - Language: Verilog
 
 
-### [Taxi](https://github.com/fpganinja/taxi)
+## [Taxi](https://github.com/fpganinja/taxi)
 AXI, AXI stream, Ethernet, and PCIe components in System Verilog
 
 - Language: systemVerilog
 
 
-### [PoC](https://github.com/VHDL/PoC)
+## [PoC](https://github.com/VHDL/PoC)
 IP Core Library - Published and maintained by the Open Source VHDL Group
 
 - Language: VHDL
@@ -59,17 +60,17 @@ This repository provides a fully-packaged Vivado IP, intended for use in custom 
 - Language: Verilog
 
 
-### [AuroraFlow](https://github.com/pc2/AuroraFlow)
+## [AuroraFlow](https://github.com/pc2/AuroraFlow)
 Ready-to-link, packaged Aurora IP on four QSFP28 lanes, providing 100Gb/s throughput, flow control and status monitoring
 
 - Language: Verilog
 
-### [Verilog PCI Express Components](https://github.com/alexforencich/verilog-pcie)
+## [Verilog PCI Express Components](https://github.com/alexforencich/verilog-pcie)
 Collection of PCI express related components. Includes PCIe to AXI and AXI lite bridges and a flexible, high-performance DMA subsystem. Currently supports operation with several FPGA families from Xilinx and Intel. Includes full cocotb testbenches that utilize cocotbext-pcie and cocotbext-axi.
 
 - Language: Verilog
 
-### [Verilog PCI Express](https://github.com/antmicro/nvme-verilog-pcie)
+## [Verilog PCI Express](https://github.com/antmicro/nvme-verilog-pcie)
 Collection of PCI express related components. Includes PCIe to AXI and AXI lite bridges, a simple PCIe AXI DMA engine, and a flexible, high-performance DMA subsystem. Currently supports operation with the Xilinx Ultrascale and Ultrascale Plus PCIe hard IP cores with interfaces between 64 and 512 bits. Includes full cocotb testbenches that utilize cocotbext-axi.
 
 - Language: Verilog

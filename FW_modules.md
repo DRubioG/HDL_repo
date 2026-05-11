@@ -4,23 +4,24 @@ These are the FW modules repository.
 
 ## Index
 
-- [Generic](#Generic)
-- [SD](#SD)
-- [FFT/IFFT](#FFT/IFFT)
-- [RNG](#RNG)
-- [MAC](#MAC)
-- [Comms](#Comms)
-- [Cores](#Cores)
-- [Ethernet](#Ethernet)
-- [Floating points](#Floating_points)
+- [Generic](#generic)
+- [SD](#sd)
+- [FFT/IFFT](#fftifft)
+- [RNG (Random Number Generation)](#rng)
+- [MAC](#mac)
+- [Comms](#comms)
+- [Cyphers](#cyphers)
+- [Cores](#cores)
+- [Ethernet](#ethernet)
+- [Floating points](#floating-point)
 - [SpaceWire](#spacewire)
-- [MIL-STD-1553]()
-- [GMII](#GMII)
-- [RoCEv2](#RoCEv2)
-- [Jesd204](#Jesd204)
-- [PCIe](#PCIe)
-- [NIC](#NIC)
-- [Other pieces](#Other_pieces)
+- [MIL-STD-1553](#mil-std-1553)
+- [GMII](#gmii)
+- [RoCEv2](#rocev2)
+- [Jesd204](#jesd204)
+- [PCIe](#pcie)
+- [NIC](#nic)
+- [Other pieces](#other-pieces)
 
 
 
@@ -291,6 +292,36 @@ Hardware implementation of Grain128a and Espresso ciphers
 
 - Language: VHDL
 
+
+
+### [AES-VHDL](https://github.com/hadipourh/AES-VHDL)
+VHDL Implementation of AES Algorithm
+
+- Language: Verilog, VHDL
+
+
+### [AES ENCRYPT CORE](https://github.com/bugratufan/aes_encrypt_core)
+VHDL implementation of 128-bit AES Encryption Core
+
+- Language: VHDL
+
+
+### [AES-256 Hardware Design](https://github.com/AleksandarLilic/AES-256_hardware_design)
+VHDL design of the AES-256 encryption algorithm
+
+- Language: VHDL
+
+
+### [VHDL Implementation of AES-128](https://github.com/swapnilbembde/aes_128)
+VHDL Implementation of AES-128
+
+- Language: VHDL
+
+
+### [CryptoHDL](https://github.com/hadipourh/CryptoHDL)
+A list of VHDL codes implementing cryptographic algorithms
+
+- Language: VHDL
 
 
 
