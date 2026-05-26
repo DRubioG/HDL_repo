@@ -1937,3 +1937,10 @@ A work-in-progress for what is to be a software-free web server for static conte
 This is a project done in 2018, to mine Menoro using FPGA. The performance is not more profitable than GPU. And Monero updated CryptoNight algorithm to V8 which is hard to implement using hardware. So I decide to opensource this project , it can mine other coins still using CryptoNight V7.
 
 - Language: Verilog
+
+
+
+### [Advent of Code on FPGA](https://github.com/MatthieuMichon/aoc-rtl)
+Below are some designs solving select Advent of Code (AoC) puzzles.
+
+- Language: Verilog
