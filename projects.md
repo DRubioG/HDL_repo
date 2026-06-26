@@ -1944,3 +1944,5 @@ This is a project done in 2018, to mine Menoro using FPGA. The performance is no
 Below are some designs solving select Advent of Code (AoC) puzzles.
 
 - Language: Verilog
+
+

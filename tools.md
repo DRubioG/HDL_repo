@@ -70,3 +70,13 @@ MyHDL is a free, open-source package for using Python as a hardware description 
 ## [pyVhdl2Sch](https://github.com/LaurentCabaret/pyVhdl2Sch)
 pyVhdl2Sch is a documentation generator tool. It takes a VHDL file (.vhd) as an entry and generates a corresponding pdf/svg/ps/png schematic.
 
+## [OpenTitan](https://github.com/lowRISC/opentitan)
+OpenTitan: Open source silicon root of trust 
+
+## [lowRISC](https://github.com/lowrisc)
+
+## [FuseSoC](https://github.com/fusesoc/fusesoc.github.io)
+Its main purpose is to increase reuse of IP (Intellectual Property) cores and be an aid for creating, building and simulating SoC solutions.
+
+## [Chipyard](https://chipyard.readthedocs.io/en/latest/index.html)
+Chipyard is a framework for designing and evaluating full-system hardware using agile teams. It is composed of a collection of tools and libraries designed to provide an integration between open-source and commercial tools for the development of systems-on-chip
